@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.humbllite",
+      "sha256_cert_fingerprints": [
+        "3A:B6:9D:DB:87:46:47:EE:78:09:77:3A:55:BD:B1:D8:6F:5F:B4:4D:71:9F:1B:71:98:05:10:AD:EC:20:53:50"
+      ]
+    }
+  }
+]

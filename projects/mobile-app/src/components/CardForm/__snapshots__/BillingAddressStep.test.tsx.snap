@@ -1,0 +1,1055 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Credit Card Billing Address Step form with initial data 1`] = `
+<form
+  className="flex flex-col justify-center h-full"
+  onSubmit={[Function]}
+>
+  <div
+    className="mb-4"
+  >
+    <div
+      className="mb-2"
+    >
+      <div
+        className="ml-2"
+      >
+        <label
+          className="block text-xs uppercase text-white opacity-80 font-medium mb-1"
+        >
+          page-billing-address-step.label.country
+        </label>
+      </div>
+      <select
+        className="py-2 px-4 w-full rounded-lg bg-blue border-white border-2 outline-none text-white placeholder-white-faded text-xl block focus:ring-indigo-500 focus:border-white focus:outline-none focus:ring-0 focus:placeholder-transparent"
+        name="country"
+        style={
+          Object {
+            "fontSize": 20,
+            "height": 52,
+          }
+        }
+      >
+        <option
+          value=""
+        >
+          merchant-create-page.option.select-a-country
+        </option>
+        <option
+          aria-label="AU"
+          value="au"
+        >
+          Australia
+        </option>
+        <option
+          aria-label="CA"
+          value="ca"
+        >
+          Canada
+        </option>
+        <option
+          aria-label="MX"
+          value="mx"
+        >
+          Mexico
+        </option>
+        <option
+          aria-label="NZ"
+          value="nz"
+        >
+          New Zealand
+        </option>
+        <option
+          aria-label="SG"
+          value="sg"
+        >
+          Singapore
+        </option>
+        <option
+          aria-label="US"
+          value="us"
+        >
+          United States of America
+        </option>
+      </select>
+    </div>
+  </div>
+  <div
+    className="mb-4"
+  >
+    <div
+      className="mb-2"
+    >
+      <div
+        className="ml-2"
+      >
+        <label
+          aria-label="ADDRESS_LINE1_LABEL"
+          className="block text-xs uppercase text-white opacity-80 font-medium mb-1"
+        >
+          page-billing-address-step.label.billing-address
+        </label>
+      </div>
+      <div
+        className="py-0 w-full flex items-center rounded-lg select-none bg-blue border-white border-2 border-solid outline-none mb-4"
+      >
+        <input
+          className="text-white placeholder-white-faded w-full rounded-lg bg-transparent text-md sm:text-xl outline-none border-none focus:border-transparent focus:outline-none focus:ring-0 focus:placeholder-transparent"
+          name="addressLine1"
+          placeholder="Address Line 1"
+          style={
+            Object {
+              "fontSize": 20,
+              "height": 48,
+            }
+          }
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      className="mb-2"
+    >
+      <div
+        className="py-0 w-full flex items-center rounded-lg select-none bg-blue border-white border-2 border-solid outline-none"
+      >
+        <input
+          className="text-white placeholder-white-faded w-full rounded-lg bg-transparent text-md sm:text-xl outline-none border-none focus:border-transparent focus:outline-none focus:ring-0 focus:placeholder-transparent"
+          name="addressLine2"
+          placeholder="page-billing-address-step.placeholder.address-line-2"
+          style={
+            Object {
+              "fontSize": 20,
+              "height": 48,
+            }
+          }
+          type="text"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="mb-4"
+  >
+    <div
+      className="mb-2"
+    >
+      <div
+        className="ml-2"
+      >
+        <label
+          aria-label="CITY_INPUT_LABEL"
+          className="block text-xs uppercase text-white opacity-80 font-medium mb-1"
+        >
+          page-billing-address-step.label.city
+        </label>
+      </div>
+      <div
+        className="py-0 w-full flex items-center rounded-lg select-none bg-blue border-white border-2 border-solid outline-none"
+      >
+        <input
+          className="text-white placeholder-white-faded w-full rounded-lg bg-transparent text-md sm:text-xl outline-none border-none focus:border-transparent focus:outline-none focus:ring-0 focus:placeholder-transparent"
+          name="city"
+          placeholder="page-billing-address-step.label.city"
+          style={
+            Object {
+              "fontSize": 20,
+              "height": 48,
+            }
+          }
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      className="flex-1 mt-4"
+    >
+      <label
+        className="flex opacity-80 ml-2 mb-1 uppercase text-xs"
+        htmlFor="state"
+      >
+        page-billing-address-step.label.state-region
+      </label>
+      <div
+        className="flex flex-col"
+      >
+        <select
+          className="py-2 px-4 w-full rounded-lg bg-blue border-white border-2 outline-none text-white placeholder-white-faded text-xl block focus:ring-indigo-500 focus:border-white focus:outline-none focus:ring-0 focus:placeholder-transparent"
+          defaultValue=""
+          name="state"
+          style={
+            Object {
+              "fontSize": 20,
+              "height": 52,
+            }
+          }
+        >
+          <option
+            disabled={true}
+            value=""
+          >
+            page-billing-address-step.label.state-region
+          </option>
+          <option
+            value="AL"
+          >
+            Alabama
+          </option>
+          <option
+            value="AK"
+          >
+            Alaska
+          </option>
+          <option
+            value="AS"
+          >
+            American Samoa
+          </option>
+          <option
+            value="AZ"
+          >
+            Arizona
+          </option>
+          <option
+            value="AR"
+          >
+            Arkansas
+          </option>
+          <option
+            value="CA"
+          >
+            California
+          </option>
+          <option
+            value="CO"
+          >
+            Colorado
+          </option>
+          <option
+            value="CT"
+          >
+            Connecticut
+          </option>
+          <option
+            value="DE"
+          >
+            Delaware
+          </option>
+          <option
+            value="DC"
+          >
+            District Of Columbia
+          </option>
+          <option
+            value="FL"
+          >
+            Florida
+          </option>
+          <option
+            value="GA"
+          >
+            Georgia
+          </option>
+          <option
+            value="GU"
+          >
+            Guam
+          </option>
+          <option
+            value="HI"
+          >
+            Hawaii
+          </option>
+          <option
+            value="ID"
+          >
+            Idaho
+          </option>
+          <option
+            value="IL"
+          >
+            Illinois
+          </option>
+          <option
+            value="IN"
+          >
+            Indiana
+          </option>
+          <option
+            value="IA"
+          >
+            Iowa
+          </option>
+          <option
+            value="KS"
+          >
+            Kansas
+          </option>
+          <option
+            value="KY"
+          >
+            Kentucky
+          </option>
+          <option
+            value="LA"
+          >
+            Louisiana
+          </option>
+          <option
+            value="ME"
+          >
+            Maine
+          </option>
+          <option
+            value="MD"
+          >
+            Maryland
+          </option>
+          <option
+            value="MA"
+          >
+            Massachusetts
+          </option>
+          <option
+            value="MI"
+          >
+            Michigan
+          </option>
+          <option
+            value="MN"
+          >
+            Minnesota
+          </option>
+          <option
+            value="MS"
+          >
+            Mississippi
+          </option>
+          <option
+            value="MO"
+          >
+            Missouri
+          </option>
+          <option
+            value="MT"
+          >
+            Montana
+          </option>
+          <option
+            value="NE"
+          >
+            Nebraska
+          </option>
+          <option
+            value="NV"
+          >
+            Nevada
+          </option>
+          <option
+            value="NH"
+          >
+            New Hampshire
+          </option>
+          <option
+            value="NJ"
+          >
+            New Jersey
+          </option>
+          <option
+            value="NM"
+          >
+            New Mexico
+          </option>
+          <option
+            value="NY"
+          >
+            New York
+          </option>
+          <option
+            value="NC"
+          >
+            North Carolina
+          </option>
+          <option
+            value="ND"
+          >
+            North Dakota
+          </option>
+          <option
+            value="OH"
+          >
+            Ohio
+          </option>
+          <option
+            value="OK"
+          >
+            Oklahoma
+          </option>
+          <option
+            value="OR"
+          >
+            Oregon
+          </option>
+          <option
+            value="PA"
+          >
+            Pennsylvania
+          </option>
+          <option
+            value="PR"
+          >
+            Puerto Rico
+          </option>
+          <option
+            value="RI"
+          >
+            Rhode Island
+          </option>
+          <option
+            value="SC"
+          >
+            South Carolina
+          </option>
+          <option
+            value="SD"
+          >
+            South Dakota
+          </option>
+          <option
+            value="TN"
+          >
+            Tennessee
+          </option>
+          <option
+            value="TX"
+          >
+            Texas
+          </option>
+          <option
+            value="UT"
+          >
+            Utah
+          </option>
+          <option
+            value="VT"
+          >
+            Vermont
+          </option>
+          <option
+            value="VI"
+          >
+            Virgin Islands
+          </option>
+          <option
+            value="VA"
+          >
+            Virginia
+          </option>
+          <option
+            value="WA"
+          >
+            Washington
+          </option>
+          <option
+            value="WV"
+          >
+            West Virginia
+          </option>
+          <option
+            value="WI"
+          >
+            Wisconsin
+          </option>
+          <option
+            value="WY"
+          >
+            Wyoming
+          </option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div
+    className="mb-8"
+  >
+    <div>
+      <div
+        className="mb-2"
+      >
+        <div
+          className="ml-2"
+        >
+          <label
+            aria-label="POST_CODE_LABEL"
+            className="block text-xs uppercase text-white opacity-80 font-medium mb-1"
+          >
+            page-billing-address-step.label.postal-code
+          </label>
+        </div>
+        <div
+          className="py-0 w-full flex items-center rounded-lg select-none bg-blue border-white border-2 border-solid outline-none"
+        >
+          <input
+            className="text-white placeholder-white-faded w-full rounded-lg bg-transparent text-md sm:text-xl outline-none border-none focus:border-transparent focus:outline-none focus:ring-0 focus:placeholder-transparent"
+            name="postalCode"
+            placeholder="page-billing-address-step.label.postal-code"
+            style={
+              Object {
+                "fontSize": 20,
+                "height": 48,
+              }
+            }
+            type="text"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="flex-1"
+    />
+  </div>
+  <div
+    className="flex justify-center mt-auto"
+  >
+    <button
+      className="text-white select-none outline-none flex justify-center items-center justify-center font-medium w-full text-white py-2 px-4 bg-blue-dark rounded-md active:bg-blue-light active:shadow-button-active active:text-blue-dark transition-all py-3 px-6 text-md sm:leading-none"
+      onClick={[Function]}
+      style={
+        Object {
+          "minWidth": 160,
+        }
+      }
+      type="submit"
+    >
+      page-billing-address-step.button.add-billing-address
+    </button>
+  </div>
+</form>
+`;
+
+exports[`renders Credit Card Billing Address Step form without data 1`] = `
+<form
+  className="flex flex-col justify-center h-full"
+  onSubmit={[Function]}
+>
+  <div
+    className="mb-4"
+  >
+    <div
+      className="mb-2"
+    >
+      <div
+        className="ml-2"
+      >
+        <label
+          className="block text-xs uppercase text-white opacity-80 font-medium mb-1"
+        >
+          page-billing-address-step.label.country
+        </label>
+      </div>
+      <select
+        className="py-2 px-4 w-full rounded-lg bg-blue border-white border-2 outline-none text-white placeholder-white-faded text-xl block focus:ring-indigo-500 focus:border-white focus:outline-none focus:ring-0 focus:placeholder-transparent"
+        name="country"
+        style={
+          Object {
+            "fontSize": 20,
+            "height": 52,
+          }
+        }
+      >
+        <option
+          value=""
+        >
+          merchant-create-page.option.select-a-country
+        </option>
+        <option
+          aria-label="AU"
+          value="au"
+        >
+          Australia
+        </option>
+        <option
+          aria-label="CA"
+          value="ca"
+        >
+          Canada
+        </option>
+        <option
+          aria-label="MX"
+          value="mx"
+        >
+          Mexico
+        </option>
+        <option
+          aria-label="NZ"
+          value="nz"
+        >
+          New Zealand
+        </option>
+        <option
+          aria-label="SG"
+          value="sg"
+        >
+          Singapore
+        </option>
+        <option
+          aria-label="US"
+          value="us"
+        >
+          United States of America
+        </option>
+      </select>
+    </div>
+  </div>
+  <div
+    className="mb-4"
+  >
+    <div
+      className="mb-2"
+    >
+      <div
+        className="ml-2"
+      >
+        <label
+          aria-label="ADDRESS_LINE1_LABEL"
+          className="block text-xs uppercase text-white opacity-80 font-medium mb-1"
+        >
+          page-billing-address-step.label.billing-address
+        </label>
+      </div>
+      <div
+        className="py-0 w-full flex items-center rounded-lg select-none bg-blue border-white border-2 border-solid outline-none mb-4"
+      >
+        <input
+          className="text-white placeholder-white-faded w-full rounded-lg bg-transparent text-md sm:text-xl outline-none border-none focus:border-transparent focus:outline-none focus:ring-0 focus:placeholder-transparent"
+          name="addressLine1"
+          placeholder="Address Line 1"
+          style={
+            Object {
+              "fontSize": 20,
+              "height": 48,
+            }
+          }
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      className="mb-2"
+    >
+      <div
+        className="py-0 w-full flex items-center rounded-lg select-none bg-blue border-white border-2 border-solid outline-none"
+      >
+        <input
+          className="text-white placeholder-white-faded w-full rounded-lg bg-transparent text-md sm:text-xl outline-none border-none focus:border-transparent focus:outline-none focus:ring-0 focus:placeholder-transparent"
+          name="addressLine2"
+          placeholder="page-billing-address-step.placeholder.address-line-2"
+          style={
+            Object {
+              "fontSize": 20,
+              "height": 48,
+            }
+          }
+          type="text"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="mb-4"
+  >
+    <div
+      className="mb-2"
+    >
+      <div
+        className="ml-2"
+      >
+        <label
+          aria-label="CITY_INPUT_LABEL"
+          className="block text-xs uppercase text-white opacity-80 font-medium mb-1"
+        >
+          page-billing-address-step.label.city
+        </label>
+      </div>
+      <div
+        className="py-0 w-full flex items-center rounded-lg select-none bg-blue border-white border-2 border-solid outline-none"
+      >
+        <input
+          className="text-white placeholder-white-faded w-full rounded-lg bg-transparent text-md sm:text-xl outline-none border-none focus:border-transparent focus:outline-none focus:ring-0 focus:placeholder-transparent"
+          name="city"
+          placeholder="page-billing-address-step.label.city"
+          style={
+            Object {
+              "fontSize": 20,
+              "height": 48,
+            }
+          }
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      className="flex-1 mt-4"
+    >
+      <label
+        className="flex opacity-80 ml-2 mb-1 uppercase text-xs"
+        htmlFor="state"
+      >
+        page-billing-address-step.label.state-region
+      </label>
+      <div
+        className="flex flex-col"
+      >
+        <select
+          className="py-2 px-4 w-full rounded-lg bg-blue border-white border-2 outline-none text-white placeholder-white-faded text-xl block focus:ring-indigo-500 focus:border-white focus:outline-none focus:ring-0 focus:placeholder-transparent"
+          defaultValue=""
+          name="state"
+          style={
+            Object {
+              "fontSize": 20,
+              "height": 52,
+            }
+          }
+        >
+          <option
+            disabled={true}
+            value=""
+          >
+            page-billing-address-step.label.state-region
+          </option>
+          <option
+            value="AL"
+          >
+            Alabama
+          </option>
+          <option
+            value="AK"
+          >
+            Alaska
+          </option>
+          <option
+            value="AS"
+          >
+            American Samoa
+          </option>
+          <option
+            value="AZ"
+          >
+            Arizona
+          </option>
+          <option
+            value="AR"
+          >
+            Arkansas
+          </option>
+          <option
+            value="CA"
+          >
+            California
+          </option>
+          <option
+            value="CO"
+          >
+            Colorado
+          </option>
+          <option
+            value="CT"
+          >
+            Connecticut
+          </option>
+          <option
+            value="DE"
+          >
+            Delaware
+          </option>
+          <option
+            value="DC"
+          >
+            District Of Columbia
+          </option>
+          <option
+            value="FL"
+          >
+            Florida
+          </option>
+          <option
+            value="GA"
+          >
+            Georgia
+          </option>
+          <option
+            value="GU"
+          >
+            Guam
+          </option>
+          <option
+            value="HI"
+          >
+            Hawaii
+          </option>
+          <option
+            value="ID"
+          >
+            Idaho
+          </option>
+          <option
+            value="IL"
+          >
+            Illinois
+          </option>
+          <option
+            value="IN"
+          >
+            Indiana
+          </option>
+          <option
+            value="IA"
+          >
+            Iowa
+          </option>
+          <option
+            value="KS"
+          >
+            Kansas
+          </option>
+          <option
+            value="KY"
+          >
+            Kentucky
+          </option>
+          <option
+            value="LA"
+          >
+            Louisiana
+          </option>
+          <option
+            value="ME"
+          >
+            Maine
+          </option>
+          <option
+            value="MD"
+          >
+            Maryland
+          </option>
+          <option
+            value="MA"
+          >
+            Massachusetts
+          </option>
+          <option
+            value="MI"
+          >
+            Michigan
+          </option>
+          <option
+            value="MN"
+          >
+            Minnesota
+          </option>
+          <option
+            value="MS"
+          >
+            Mississippi
+          </option>
+          <option
+            value="MO"
+          >
+            Missouri
+          </option>
+          <option
+            value="MT"
+          >
+            Montana
+          </option>
+          <option
+            value="NE"
+          >
+            Nebraska
+          </option>
+          <option
+            value="NV"
+          >
+            Nevada
+          </option>
+          <option
+            value="NH"
+          >
+            New Hampshire
+          </option>
+          <option
+            value="NJ"
+          >
+            New Jersey
+          </option>
+          <option
+            value="NM"
+          >
+            New Mexico
+          </option>
+          <option
+            value="NY"
+          >
+            New York
+          </option>
+          <option
+            value="NC"
+          >
+            North Carolina
+          </option>
+          <option
+            value="ND"
+          >
+            North Dakota
+          </option>
+          <option
+            value="OH"
+          >
+            Ohio
+          </option>
+          <option
+            value="OK"
+          >
+            Oklahoma
+          </option>
+          <option
+            value="OR"
+          >
+            Oregon
+          </option>
+          <option
+            value="PA"
+          >
+            Pennsylvania
+          </option>
+          <option
+            value="PR"
+          >
+            Puerto Rico
+          </option>
+          <option
+            value="RI"
+          >
+            Rhode Island
+          </option>
+          <option
+            value="SC"
+          >
+            South Carolina
+          </option>
+          <option
+            value="SD"
+          >
+            South Dakota
+          </option>
+          <option
+            value="TN"
+          >
+            Tennessee
+          </option>
+          <option
+            value="TX"
+          >
+            Texas
+          </option>
+          <option
+            value="UT"
+          >
+            Utah
+          </option>
+          <option
+            value="VT"
+          >
+            Vermont
+          </option>
+          <option
+            value="VI"
+          >
+            Virgin Islands
+          </option>
+          <option
+            value="VA"
+          >
+            Virginia
+          </option>
+          <option
+            value="WA"
+          >
+            Washington
+          </option>
+          <option
+            value="WV"
+          >
+            West Virginia
+          </option>
+          <option
+            value="WI"
+          >
+            Wisconsin
+          </option>
+          <option
+            value="WY"
+          >
+            Wyoming
+          </option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div
+    className="mb-8"
+  >
+    <div>
+      <div
+        className="mb-2"
+      >
+        <div
+          className="ml-2"
+        >
+          <label
+            aria-label="POST_CODE_LABEL"
+            className="block text-xs uppercase text-white opacity-80 font-medium mb-1"
+          >
+            page-billing-address-step.label.postal-code
+          </label>
+        </div>
+        <div
+          className="py-0 w-full flex items-center rounded-lg select-none bg-blue border-white border-2 border-solid outline-none"
+        >
+          <input
+            className="text-white placeholder-white-faded w-full rounded-lg bg-transparent text-md sm:text-xl outline-none border-none focus:border-transparent focus:outline-none focus:ring-0 focus:placeholder-transparent"
+            name="postalCode"
+            placeholder="page-billing-address-step.label.postal-code"
+            style={
+              Object {
+                "fontSize": 20,
+                "height": 48,
+              }
+            }
+            type="text"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="flex-1"
+    />
+  </div>
+  <div
+    className="flex justify-center mt-auto"
+  >
+    <button
+      className="text-white select-none outline-none flex justify-center items-center justify-center font-medium w-full text-white py-2 px-4 bg-blue-dark rounded-md active:bg-blue-light active:shadow-button-active active:text-blue-dark transition-all py-3 px-6 text-md sm:leading-none"
+      onClick={[Function]}
+      style={
+        Object {
+          "minWidth": 160,
+        }
+      }
+      type="submit"
+    >
+      page-credit-card-info-step.button.save-changes
+    </button>
+  </div>
+</form>
+`;

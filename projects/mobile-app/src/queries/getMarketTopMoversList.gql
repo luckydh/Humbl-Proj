@@ -1,0 +1,12 @@
+query getMarketTopMoversList {
+  getMarketList(sortBy: TOP_MOVERS, limit: 4) {
+    assets {
+      currency
+      name
+      code
+      logoImage
+      price
+      percentChangeOverPeriod
+    }
+  }
+}

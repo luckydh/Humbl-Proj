@@ -1,0 +1,26 @@
+query GetCryptoCardOrderReservation($reservationId: String, $paymentMethodId: String, $assetCode: String) {
+  asset: getAssetMetrics(assetName: $assetCode) {
+    price
+  }
+  paymentMethod: getSinglePaymentMethod(pmId: $paymentMethodId) {
+    id
+    lastFour
+    cardBrand {
+      id
+      display
+      image
+    }
+  }
+  reservation: getCardOrderReservation(reservationId: $reservationId, assetName: $assetCode) {
+    reservationId
+    exchangeRate
+    sourceAmount
+    sourceCurrency
+    destinationCurrency
+    destinationAmount
+    fees {
+      currencyName
+      feeAmount
+    }
+  }
+}

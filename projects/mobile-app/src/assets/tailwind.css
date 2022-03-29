@@ -1,0 +1,227 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://rsms.me/inter/inter.css");
+
+* {
+  font-family: "Hando", sans-serif;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Chrome, Safari and Opera */
+*::-webkit-scrollbar {
+  display: none;
+}
+
+/* @supports (font-variation-settings: normal) {
+  html {
+    font-family: 'Inter var', sans-serif;
+  }
+} */
+body {
+  color: #ffffff;
+  font-family: "Hando", sans-serif;
+}
+
+/* 
+Component/UI Library Styles from UI Kit
+ */
+@layer components {
+  .button-small {
+    @apply text-base;
+  }
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+}
+
+.safe-area-top {
+  padding-top: constant(safe-area-inset-top); /* iOS 11.0 */
+  padding-top: env(safe-area-inset-top); /* iOS 11.2 */
+}
+
+ion-menu {
+  margin-top: constant(safe-area-inset-top); /* iOS 11.0 */
+  margin-top: env(safe-area-inset-top); /* iOS 11.2 */
+}
+
+:root {
+  /* TODO: Remove use of vars and apply directly to tailwind config */
+  --white-faded: #ffffffb2;
+  --blue-light: #72caed;
+  --blue: #21ace3;
+  --bright-blue: #368cfb;
+  --light-bright-blue: #4ac6f8;
+  --blue-dark: 59, 91, 123;
+  --blue-dark2: #3b5b7b;
+  --grey-light: #6b7e90;
+  --red-light: #f8d2d2;
+  --red: #af3e3e;
+  --blue-lightest: #e4f8ff;
+  --blue-lightest2: #eefbff;
+  --blue-lightest3: #7ed0ee;
+  --blue-dark3: #3a5b7a;
+  --grey: #8e949f;
+  --blue-lightest4: #f0fbff;
+  --red-failed: #ff6363;
+  --yellow: #edcc1c;
+}
+
+ion-content {
+  --background: transparent;
+}
+ion-tab-bar {
+  --background: var(--blue);
+}
+
+.ion-page {
+  background: var(--blue);
+}
+
+button:focus,
+input:focus {
+  outline: none;
+}
+
+.disabled {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.bg-lines {
+  --background: none;
+  background: center top no-repeat url("./svgs/bg-lines.svg");
+  background-size: cover;
+}
+
+.bg-carousel {
+  --background: none;
+  background: center top no-repeat url("./images/carousel-image.png");
+  background-size: cover;
+}
+
+.bg-unauthed {
+  --background: none;
+
+  /* background: red; */
+  background: center no-repeat url("./svgs/bg-unauthed.svg");
+  background-size: cover;
+}
+
+.bg-profiles {
+  --background: none;
+  background: center no-repeat url("./svgs/bg-profiles.svg");
+  /* background-size: cover; */
+}
+/* TODO: FIXME: We should not be building custom classes like this when utility classes can be applied at the source */
+.path-blue > :first-child {
+  @apply text-blue fill-current;
+}
+.path-blue-light > :first-child {
+  @apply text-blue-light fill-current;
+}
+.path-light-bright-blue > :first-child {
+  @apply text-light-bright-blue fill-current;
+}
+.path-blue-dark > :first-child {
+  @apply text-blue-dark fill-current;
+}
+.path-blue-dark2 > :first-child {
+  @apply text-blue-dark2 fill-current;
+}
+.path-red-light > :first-child {
+  @apply text-red-light fill-current;
+}
+.path-red-failed > :first-child {
+  @apply text-red-failed fill-current;
+}
+.path-yellow > :first-child {
+  @apply text-yellow fill-current;
+}
+.path-grey-light > :first-child {
+  @apply text-grey-light fill-current;
+}
+.path-red > :first-child {
+  @apply text-red fill-current;
+}
+.path-blue-lightest > :first-child {
+  @apply text-blue-lightest fill-current;
+}
+.path-green > :first-child {
+  @apply text-green-positive fill-current;
+}
+.path-blue-ligtest2 > :first-child {
+  @apply text-blue-lightest2 fill-current;
+}
+
+.event-image-gradient {
+  background: linear-gradient(0deg, rgba(33, 172, 227, 1) 12%, rgba(33, 172, 227, 0) 40%);
+}
+
+/* Change autocomplete styles in WebKit */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #20ace3 inset;
+  box-shadow: 0 0 0px 1000px #20ace3 inset;
+}
+
+@layer base {
+  select {
+    background-image: url("./svgs/dropdown-arrow.svg");
+    background-size: 1.15rem 1.15em;
+    background-position: right 0.6rem center;
+  }
+}
+
+@font-face {
+  font-family: "Hando";
+  font-weight: 200;
+  src: url("./fonts/hando/Hando-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Hando";
+  font-weight: 300;
+  src: url("./fonts/hando/Hando-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Hando";
+  font-weight: 400;
+  src: url("./fonts/hando/Hando-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Hando";
+  font-weight: 500;
+  src: url("./fonts/hando/Hando-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Hando";
+  font-weight: 600;
+  src: url("./fonts/hando/Hando-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Hando";
+  font-weight: 700;
+  src: url("./fonts/hando/Hando-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Hando";
+  font-weight: 800;
+  src: url("./fonts/hando/Hando-Black.ttf") format("truetype");
+}

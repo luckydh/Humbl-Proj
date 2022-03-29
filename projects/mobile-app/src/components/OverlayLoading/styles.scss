@@ -1,0 +1,15 @@
+.overlay-loading {
+  --background: transparent;
+  --spinner-color: white;
+  --backdrop-opacity: 0.9;
+  --ion-backdrop-color: #21ace3;
+}
+
+.overlay-loading .loading-wrapper {
+  box-shadow: none;
+}
+
+.overlay-loading ion-spinner {
+  width: 3rem;
+  height: 3rem;
+}

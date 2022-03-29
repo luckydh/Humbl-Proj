@@ -1,0 +1,18 @@
+query GetQuoteById($quoteId: String, $assetCode: String) {
+  getQuote(quoteId: $quoteId, assetName: $assetCode) {
+    paymentName
+    sourceCurrency
+    sourceCurrencyCode
+    sourceAmount
+    destinationCurrency
+    destinationCurrencyCode
+    destinationAmount
+    sourceFee
+    notes
+    fiatFees
+    fiatAmount
+    fiatCurrencyCode
+    destination
+    isInternal
+  }
+}

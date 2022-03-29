@@ -1,0 +1,27 @@
+mutation StartPayoutQuote(
+  $sourceCurrencyCode: String
+  $destinationCurrencyCode: String
+  $destAmount: String
+  $bankAccountId: String
+  $maxOption: Boolean
+) {
+  startPayoutQuote(
+    destAmount: $destAmount
+    sourceCurrencyCode: $sourceCurrencyCode
+    destinationCurrencyCode: $destinationCurrencyCode
+    bankAccountId: $bankAccountId
+    maxOption: $maxOption
+  ) {
+    quoteId
+    sourceCurrency
+    sourceAmount
+    sourceCurrencyCode
+    destinationCurrency
+    destinationCurrencyCode
+    destinationAmount
+    exchangeRate
+    expiresAt
+    fiatFees
+    sourceFee
+  }
+}

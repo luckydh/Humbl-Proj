@@ -1,0 +1,80 @@
+.sentry-error-embed {
+  background-color: var(--blue) !important;
+  border: none !important;
+
+  h2,
+  p,
+  label,
+  input,
+  button {
+    color: white !important;
+  }
+
+  ::placeholder {
+    color: #ffffffb2 !important;
+  }
+
+  header {
+    margin-top: 1.125rem;
+
+    h2 {
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
+
+    p {
+      font-size: 1rem !important;
+      line-height: 1.5rem;
+    }
+  }
+
+  input,
+  textarea {
+    border-radius: 5px !important;
+    border-color: white !important;
+    border-width: 2px !important;
+    background-color: transparent !important;
+    font-size: 1.25rem !important;
+    line-height: 1.75rem !important;
+    outline: 2px solid transparent !important;
+    outline-offset: 2px !important;
+    padding: 0.5rem 0.75rem !important;
+  }
+  input {
+    height: 4rem !important;
+  }
+  textarea {
+    height: 8rem !important;
+    color: white;
+  }
+
+  .form-submit {
+    text-align: center;
+  }
+
+  .form-content .message-success,
+  .error-wrapper .message-error {
+    background: transparent;
+  }
+
+  .error-wrapper .message-error {
+    border-color: var(--red);
+    margin-bottom: 2rem !important;
+  }
+
+  .btn {
+    border: none !important;
+    border-radius: 5px !important;
+    background-color: rgb(59, 91, 123) !important;
+    width: 100%;
+  }
+
+  .close {
+    float: none !important;
+    font-size: 1rem !important;
+  }
+
+  .powered-by {
+    display: none !important;
+  }
+}

@@ -1,0 +1,13 @@
+mutation startTicketOrder (
+  $tickets: [TicketsWithAmount]
+  $merchantId: String
+  $platformEventId: String
+) {
+  startTicketOrder (
+    tickets: $tickets
+    merchantId: $merchantId
+    platformEventId: $platformEventId
+  ) {
+    orderId
+  }
+}

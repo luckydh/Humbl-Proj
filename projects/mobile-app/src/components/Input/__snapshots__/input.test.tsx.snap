@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Input field correctly 1`] = `
+<div
+  className="mb-2"
+>
+  <div
+    className="py-0 w-full flex items-center rounded-lg select-none bg-blue border-white border-2 border-solid outline-none"
+  >
+    <input
+      className="text-white placeholder-white-faded w-full rounded-lg bg-transparent text-md sm:text-xl outline-none border-none focus:border-transparent focus:outline-none focus:ring-0 focus:placeholder-transparent"
+      style={
+        Object {
+          "fontSize": 20,
+          "height": 48,
+        }
+      }
+      type="text"
+    />
+  </div>
+</div>
+`;

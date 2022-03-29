@@ -1,0 +1,41 @@
+mutation AddCreditCard(
+  $cardBrand: String!
+  $tokenizedCardNum: String!
+  $tokenizedCVC: String!
+  $nameOnCard: String!
+  $expirationDate: String!
+  $lastFour: String!
+  $street: String!
+  $streetAdditional: String!
+  $city: String!
+  $postal: String!
+  $region: String!
+  $country: String!
+) {
+  createPaymentMethod(
+    cardBrand: $cardBrand
+    tokenizedCardNum: $tokenizedCardNum
+    tokenizedCVC: $tokenizedCVC
+    nameOnCard: $nameOnCard
+    expirationDate: $expirationDate
+    lastFour: $lastFour
+    street: $street
+    streetAdditional: $streetAdditional
+    city: $city
+    postal: $postal
+    region: $region
+    country: $country
+  ) {
+    id
+    lastFour
+    cardBrand {
+      id
+      display
+      image
+    }
+    status
+    type
+    expirationDate
+    name
+  }
+}

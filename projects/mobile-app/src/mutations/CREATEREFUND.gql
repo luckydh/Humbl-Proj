@@ -1,0 +1,40 @@
+mutation CreateRefundCardTransaction(
+  $amount: Int
+  $currency: String
+  $notes: String
+  $transaction: String
+  $destinationAccountTag: String
+  $txDetailId: String
+) {
+  createRefundCardTransaction(
+    amount: $amount
+    currency: $currency
+    notes: $notes
+    transaction: $transaction
+    destinationAccountTag: $destinationAccountTag
+    txDetailId: $txDetailId
+  ) {
+    id
+    receiver {
+      id
+      userName
+      displayName
+      image
+    }
+    sender {
+      id
+      userName
+      displayName
+      image
+    }
+    dateOfTransaction
+    amount
+    total {
+      major
+      value
+      display
+    }
+    currency
+    isRefunded
+  }
+}

@@ -1,0 +1,23 @@
+query getReviewsByAccountId($merchantId: String!,$page:Int,$limit:Int) {
+    reviews(merchantId: $merchantId,page:$page,limit:$limit) {
+        nodes {
+            transaction {
+                sender {
+                    displayName
+                    userName
+                    image
+                }
+            }
+            id
+            date
+            detail
+            averageRating
+            rating
+        }
+        pageInfo {
+            currentPage
+            totalCount
+            perPage
+        }
+    }
+}

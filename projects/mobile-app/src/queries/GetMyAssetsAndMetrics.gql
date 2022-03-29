@@ -1,0 +1,18 @@
+query GetMyAssetsAndMetrics($assetName: String!, $currency: String!) {
+  myAssets(currency: $currency) {
+    code
+    amount
+    fiatAmount {
+      value
+      major
+      display
+    }
+  }
+  getAssetMetrics(assetName: $assetName) {
+    name
+    code
+    price
+    currency
+    logoImage
+  }
+}

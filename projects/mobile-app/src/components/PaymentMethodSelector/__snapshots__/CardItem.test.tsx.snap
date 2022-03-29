@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders card item with chevron 1`] = `
+<button
+  className="flex mb-4 rounded-lg select-none bg-none outline-none items-center border-white border-2 border-solid p-3 py-4"
+  disabled={false}
+>
+  <img
+    alt="Payment Brand Logo - Visa "
+    src="credit-card-placeholder.svg"
+    style={
+      Object {
+        "height": 38,
+      }
+    }
+  />
+  <div
+    className="ml-3 rounded text-left w-full text-white flex items-center truncate"
+  >
+    <div>
+      <h2
+        className="text-md leading-none font-bold truncate"
+      >
+        Visa
+      </h2>
+      <span
+        className="text-base leading-none font-medium truncate"
+      >
+        Credit - 
+        1234
+      </span>
+    </div>
+    <svg
+      className="flex-none ml-auto"
+      height="100%"
+      viewBox="0 0 37.996 38.002"
+      width={38}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <defs>
+        <style>
+          .a_chevron_filled{fill:#d3eff9}
+        </style>
+      </defs>
+      <path
+        className="a_chevron_filled"
+        d="M19033,21472a18.944,18.944,0,1,1,7.395-1.494A18.888,18.888,0,0,1,19033,21472Zm-2.77-29.555-2.6,2.594,7.533,7.535-7.533,7.533,2.6,2.6,10.137-10.135Z"
+        transform="translate(-19014.002 -21433.998)"
+      />
+    </svg>
+  </div>
+</button>
+`;
+
+exports[`renders card item with custom card brand image 1`] = `
+<button
+  className="flex mb-4 rounded-lg select-none bg-none outline-none items-center border-white border-2 border-solid p-3 py-4"
+  disabled={false}
+>
+  <img
+    alt="Payment Brand Logo - Visa "
+    src="https://res.cloudinary.com/humbldata/image/upload/v1615500991/payment_method_assets/VISA_kigub0.png"
+    style={
+      Object {
+        "height": 38,
+      }
+    }
+  />
+  <div
+    className="ml-3 rounded text-left w-full text-white flex items-center truncate"
+  >
+    <div>
+      <h2
+        className="text-md leading-none font-bold truncate"
+      >
+        Visa
+      </h2>
+      <span
+        className="text-base leading-none font-medium truncate"
+      >
+        Credit - 
+        1234
+      </span>
+    </div>
+  </div>
+</button>
+`;
+
+exports[`renders card item without chevron 1`] = `
+<button
+  className="flex mb-4 rounded-lg select-none bg-none outline-none items-center border-white border-2 border-solid p-3 py-4"
+  disabled={false}
+>
+  <img
+    alt="Payment Brand Logo - Visa "
+    src="credit-card-placeholder.svg"
+    style={
+      Object {
+        "height": 38,
+      }
+    }
+  />
+  <div
+    className="ml-3 rounded text-left w-full text-white flex items-center truncate"
+  >
+    <div>
+      <h2
+        className="text-md leading-none font-bold truncate"
+      >
+        Visa
+      </h2>
+      <span
+        className="text-base leading-none font-medium truncate"
+      >
+        Credit - 
+        1234
+      </span>
+    </div>
+  </div>
+</button>
+`;

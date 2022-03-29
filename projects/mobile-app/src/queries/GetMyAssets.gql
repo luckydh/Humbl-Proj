@@ -1,0 +1,15 @@
+query MyAssets($currency: String!, $type: String) {
+  myAssets(currency: $currency, type: $type) {
+    name
+    code
+    logoImage
+    amount
+    interestGaining
+    exchangeRate
+    fiatAmount {
+      value
+      display
+      major
+    }
+  }
+}

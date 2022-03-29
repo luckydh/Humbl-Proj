@@ -1,0 +1,89 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "import"],
+  "ignorePatterns": "src/generated/*",
+  "extends": [
+    "airbnb",
+    "airbnb-typescript",
+    "react-app",
+    "eslint:recommended",
+    "plugin:import/typescript",
+    // "plugin:prettier/recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "rules": {
+    "curly": "warn",
+    "object-curly-newline": "off",
+    "operator-linebreak": "off",
+    "consistent-return": "off",
+    "function-paren-newline": "off",
+    "import/no-named-as-default": "off",
+    "import/prefer-default-export": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "no-console": "warn",
+    "no-nested-ternary": "off",
+    "no-warning-comments": ["warn", { "terms": ["debug"], "location": "anywhere" }],
+    "no-use-before-define": "off",
+    "react/function-component-definition": [2, { "namedComponents": "arrow-function" }],
+    "react/jsx-props-no-spreading": "off",
+    "react/no-unused-prop-types": "off",
+    "react/prop-types": "off",
+    "react/require-default-props": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "@typescript-eslint/no-non-null-asserted-optional-chain": "off",
+    // no reassign except for in reduce fns
+    // "no-param-reassign": ["warn", { props: true, ignorePropertyModificationsForRegex: ["^curr"] }],
+    "@typescript-eslint/no-unused-vars": ["warn", { "argsIgnorePattern": "^_", "ignoreRestSiblings": true }],
+    "@typescript-eslint/no-use-before-define": ["error"],
+    "@typescript-eslint/no-var-requires": "off",
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true
+      }
+    ],
+
+    // TEMPORARILY disabled.
+    // TODO: as we move along, remove these disabled rules and
+    // fix the results so as to get to our ideal state.
+    "implicit-arrow-linebreak": "off",
+    "import/no-cycle": "off",
+    "import/order": "off",
+    "max-len": "off",
+    "no-multiple-empty-lines": "off",
+    "no-param-reassign": "off",
+    "no-underscore-dangle": "off",
+    "prefer-destructuring": "off",
+    "prefer-template": "off",
+    "react/button-has-type": "off",
+    "react/destructuring-assignment": "off",
+    "react/jsx-boolean-value": "off",
+    "react/jsx-curly-brace-presence": "off",
+    "react/jsx-closing-bracket-location": "off",
+    "react/jsx-closing-tag-location": "off",
+    "react/jsx-indent": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "react/jsx-wrap-multilines": "off",
+    "react/jsx-no-bind": "off",
+    "react/no-array-index-key": "off",
+    "react/no-unknown-property": "off",
+    "spaced-comment": "off",
+    "@typescript-eslint/ban-types": "off",
+    "@typescript-eslint/comma-dangle": "off",
+    "@typescript-eslint/indent": "off",
+    "@typescript-eslint/lines-between-class-members": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-empty-interface": "off",
+    "@typescript-eslint/no-shadow": "off",
+    "@typescript-eslint/object-curly-spacing": "off",
+    "@typescript-eslint/quotes": "off",
+    "@typescript-eslint/semi": "off",
+    "@typescript-eslint/space-infix-ops": "off"
+  },
+  "parserOptions": {
+    "project": ["./tsconfig.json", "./projects/*/tsconfig.json"]
+  }
+}

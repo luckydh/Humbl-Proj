@@ -1,0 +1,13 @@
+.text-secondary {
+  p {
+    color: #bde6f6;
+  }
+}
+
+.warning-modal {
+  --background: rgba(33, 172, 227, 0.85);
+
+  .ion-page {
+    background: transparent !important;
+  }
+}

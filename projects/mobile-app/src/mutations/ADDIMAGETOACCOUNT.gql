@@ -1,0 +1,5 @@
+mutation UpdateAccountImage($image: String, $dimensions: ImageDimensions) {
+  updateAccountImage(image: $image, dimensions: $dimensions) {
+    image
+  }
+}

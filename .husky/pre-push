@@ -1,0 +1,7 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# There is a mismatch in webpack because of this
+# https://github.com/facebook/create-react-app/issues/10699
+# When CRA react-scripts is updated remove this skip preflight
+CI=true SKIP_PREFLIGHT_CHECK=true npm test

@@ -1,0 +1,71 @@
+@import "assets/global_variables";
+
+$iphone-safe-area-bottom-env: env(safe-area-inset-bottom);
+
+ion-tab-bar.v2_ionTabBar {
+  border: none;
+  background-color: white;
+  display: flex;
+  border-top: 1px solid hsl(196, 100%, 95%);
+
+  // If there are IOS padding issues this will need the constant(safe-area-inset-bottom)
+  padding-bottom: $iphone-safe-area-bottom-env;
+
+  ion-tab-button.v2_tab {
+    background-color: white;
+    opacity: 1;
+    height: auto;
+
+    .v2-icon-container {
+      color: #3b5b7b;
+      border-radius: 100%;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: none;
+
+      @media (min-width: $app_sm) {
+        width: 20px;
+        height: 20px;
+      }
+
+      @media (min-width: $app_md) {
+        width: 22px;
+        height: 22px;
+      }
+
+      @media (min-width: $app_lg) {
+        width: 25px;
+        height: 25px;
+      }
+    }
+
+    ion-label {
+      color: #3b5b7b;
+      margin: 4px 0 0 0 !important;
+
+      @media (min-width: $app_sm) {
+        font-size: 10px;
+        font-weight: 500;
+      }
+
+      @media (min-width: $app_lg) {
+        font-size: 12px;
+      }
+    }
+
+    &:active {
+      .v2-icon-container {
+        background: #eee;
+      }
+    }
+
+    &.tab-selected {
+      .v2-icon-container,
+      ion-label {
+        color: #22ade4;
+      }
+    }
+  }
+}

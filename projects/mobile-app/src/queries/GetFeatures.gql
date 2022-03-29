@@ -1,0 +1,10 @@
+query getFeatures {
+  features {
+    features {
+      id
+      name
+      description
+      enabled
+    }
+  }
+}

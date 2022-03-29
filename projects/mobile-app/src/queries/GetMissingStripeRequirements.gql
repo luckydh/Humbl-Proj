@@ -1,0 +1,27 @@
+query GetMissingStripeRequirements {
+  me {
+    merchantProfileDetails {
+      countryCode
+    }
+  }
+  missingStripeRequirements {
+    persons {
+      id
+      name
+      relationships
+      missingFields {
+        fieldName
+        properties
+      }
+    }
+    business {
+      id
+      name
+      type
+      missingFields {
+        fieldName
+        properties
+      }
+    }
+  }
+}

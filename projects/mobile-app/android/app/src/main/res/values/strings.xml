@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">HUMBL Pay</string>
+    <string name="title_activity_main">HUMBL Pay</string>
+    <string name="package_name">com.humbllite</string>
+    <string name="custom_url_scheme">com.humbllite</string>
+    <string name="facebook_app_id">597693047551254</string>
+    <string name="fb_login_protocol_scheme">fb597693047551254</string>
+</resources>

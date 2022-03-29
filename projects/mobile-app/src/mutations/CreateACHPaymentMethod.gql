@@ -1,0 +1,15 @@
+mutation CreateACHPaymentMethod($publicToken: String!, $plaidBankId: String!) {
+  createACHPayMethod(publicToken: $publicToken, plaidBankId: $plaidBankId) {
+    id
+    lastFour
+    cardBrand {
+      id
+      display
+      image
+    }
+    status
+    type
+    expirationDate
+    name
+  }
+}

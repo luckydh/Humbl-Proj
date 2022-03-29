@@ -1,0 +1,9 @@
+query GetCryptoAssetMetrics($assetName: String!) {
+  getAssetMetrics(assetName: $assetName) {
+    name
+    code
+    price
+    currency
+    logoImage
+  }
+}

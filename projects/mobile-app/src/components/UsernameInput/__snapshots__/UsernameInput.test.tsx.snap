@@ -1,0 +1,208 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UsernameInput should display the error message if the username is not available 1`] = `
+<DocumentFragment>
+  <div
+    class="mb-2"
+  >
+    <div
+      class="ml-2"
+    >
+      <label
+        class="block text-xs uppercase text-white opacity-80 font-medium mb-1"
+      >
+        merchant-create-page.label.user-name
+      </label>
+    </div>
+    <div
+      class="mb-2"
+    >
+      <div
+        class="py-0 w-full flex items-center rounded-lg select-none bg-blue border-white border-2 border-solid outline-none"
+      >
+        <input
+          class="text-white placeholder-white-faded w-full rounded-lg bg-transparent text-md sm:text-xl outline-none border-none focus:border-transparent focus:outline-none focus:ring-0 focus:placeholder-transparent"
+          maxlength="24"
+          minlength="6"
+          name="userName"
+          placeholder="merchant-create-page.placeholder.user-name"
+          style="height: 48px; font-size: 20px;"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      class="flex items-center text-sm rounded-md p-2 leading-5 text-gray-900 border-red bg-red-light"
+      style="color: rgb(59, 91, 123);"
+    >
+      user-name.failure.this-username-is-not-available
+      <div
+        class="pl-2 ml-auto"
+      />
+    </div>
+    <div
+      class="pt-2 pb-4 u-1 text-white text-sm font-medium"
+    >
+      merchant-create-page.info.usernames-can-only-be-letters-numbers-hyphens
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`UsernameInput should display the error message if validation fails 1`] = `
+<DocumentFragment>
+  <div
+    class="mb-2"
+  >
+    <div
+      class="ml-2"
+    >
+      <label
+        class="block text-xs uppercase text-white opacity-80 font-medium mb-1"
+      >
+        merchant-create-page.label.user-name
+      </label>
+    </div>
+    <div
+      class="mb-2"
+    >
+      <div
+        class="py-0 w-full flex items-center rounded-lg select-none bg-blue border-white border-2 border-solid outline-none mb-2"
+      >
+        <input
+          class="text-white placeholder-white-faded w-full rounded-lg bg-transparent text-md sm:text-xl outline-none border-none focus:border-transparent focus:outline-none focus:ring-0 focus:placeholder-transparent"
+          maxlength="24"
+          minlength="6"
+          name="userName"
+          placeholder="merchant-create-page.placeholder.user-name"
+          style="height: 48px; font-size: 20px;"
+          type="text"
+          value=""
+        />
+      </div>
+      <div>
+        <div
+          class="flex items-center text-sm rounded-md p-2 leading-5 text-gray-900 border-red bg-red-light"
+          style="color: rgb(59, 91, 123);"
+        >
+          validation error
+          <div
+            class="pl-2 ml-auto"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="pt-2 pb-4 u-1 text-white text-sm font-medium"
+    >
+      merchant-create-page.info.usernames-can-only-be-letters-numbers-hyphens
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`UsernameInput should display the success message if username is available 1`] = `
+<DocumentFragment>
+  <div
+    class="mb-2"
+  >
+    <div
+      class="ml-2"
+    >
+      <label
+        class="block text-xs uppercase text-white opacity-80 font-medium mb-1"
+      >
+        merchant-create-page.label.user-name
+      </label>
+    </div>
+    <div
+      class="mb-2"
+    >
+      <div
+        class="py-0 w-full flex items-center rounded-lg select-none bg-blue border-white border-2 border-solid outline-none"
+      >
+        <input
+          class="text-white placeholder-white-faded w-full rounded-lg bg-transparent text-md sm:text-xl outline-none border-none focus:border-transparent focus:outline-none focus:ring-0 focus:placeholder-transparent"
+          maxlength="24"
+          minlength="6"
+          name="userName"
+          placeholder="merchant-create-page.placeholder.user-name"
+          style="height: 48px; font-size: 20px;"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      class="my-2 "
+    >
+      <div
+        class="flex items-center text-sm rounded-md p-2 leading-5 bg-green-100 text-green-800 border-green-800"
+      >
+        user-name.success.this-username-is-available
+        <div
+          class="pl-2 ml-auto"
+        >
+          <svg
+            height="21.04"
+            width="28.054"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="fill-current"
+              d="M0 11.415l9.607 9.625L28.054 2.612 25.406 0l-15.8 15.78-7-7z"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div
+      class="pt-2 pb-4 u-1 text-white text-sm font-medium"
+    >
+      merchant-create-page.info.usernames-can-only-be-letters-numbers-hyphens
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`UsernameInput should render the default input 1`] = `
+<DocumentFragment>
+  <div
+    class="mb-2"
+  >
+    <div
+      class="ml-2"
+    >
+      <label
+        class="block text-xs uppercase text-white opacity-80 font-medium mb-1"
+      >
+        merchant-create-page.label.user-name
+      </label>
+    </div>
+    <div
+      class="mb-2"
+    >
+      <div
+        class="py-0 w-full flex items-center rounded-lg select-none bg-blue border-white border-2 border-solid outline-none"
+      >
+        <input
+          class="text-white placeholder-white-faded w-full rounded-lg bg-transparent text-md sm:text-xl outline-none border-none focus:border-transparent focus:outline-none focus:ring-0 focus:placeholder-transparent"
+          maxlength="24"
+          minlength="6"
+          name="userName"
+          placeholder="merchant-create-page.placeholder.user-name"
+          style="height: 48px; font-size: 20px;"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      class="pt-2 pb-4 u-1 text-white text-sm font-medium"
+    >
+      merchant-create-page.info.usernames-can-only-be-letters-numbers-hyphens
+    </div>
+  </div>
+</DocumentFragment>
+`;

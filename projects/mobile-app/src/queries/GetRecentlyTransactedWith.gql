@@ -1,0 +1,10 @@
+query GetRecentlyTransactedWith {
+  me {
+    recentlyTransactedWith {
+      id
+      image
+      userName
+      displayName
+    }
+  }
+}

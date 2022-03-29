@@ -1,0 +1,21 @@
+mutation startUserTransferQuote(
+  $sourceCurrencyCode: String
+  $destAmount: String
+  $sourceAmount: String!
+  $destinationCurrencyCode: String
+  $destination: String
+  $notes: String
+  $maxOption: Boolean
+) {
+  startUserTransferQuote(
+    sourceCurrencyCode: $sourceCurrencyCode
+    destAmount: $destAmount
+    sourceAmount: $sourceAmount
+    destinationCurrencyCode: $destinationCurrencyCode
+    destination: $destination
+    notes: $notes
+    maxOption: $maxOption
+  ) {
+    quoteId
+  }
+}

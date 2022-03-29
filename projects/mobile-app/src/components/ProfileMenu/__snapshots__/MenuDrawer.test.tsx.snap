@@ -1,0 +1,294 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders menu drawer correctly 1`] = `
+<div
+  className="safe-area-top"
+>
+  <ion-menu
+    content-id="main_content"
+    menu-id="menu"
+    side="start"
+    swipe-gesture={false}
+    type="overlay"
+  >
+    <div
+      className="bg-blue h-full"
+    >
+      <div
+        className="w-full flex relative items-center"
+      >
+        <ion-menu-toggle>
+          <ion-icon
+            icon="close"
+          />
+        </ion-menu-toggle>
+        <h2
+          className="flex-1 text-xl text-white my-3 sm:m-6 text-center"
+        >
+          Menu
+        </h2>
+      </div>
+      <div
+        className="px-6"
+      >
+        <ion-menu-toggle>
+          <a
+            className="justify-between text-white group flex items-center px-0 py-2 text-lg font-medium rounded-md"
+            href="/update-profile"
+            onClick={[Function]}
+            target="_self"
+          >
+            <div
+              className="flex items-center align-middle"
+            >
+              <ion-icon
+                icon="ProfileIcon.svg"
+              />
+              <h2
+                className="text-white"
+              >
+                component-profile-menu.text.my-profile
+              </h2>
+            </div>
+            <ion-icon
+              icon="ChevronForwardIcon.svg"
+            />
+          </a>
+          <a
+            className="justify-between text-white group flex items-center px-0 py-2 text-lg font-medium rounded-md"
+            href="/"
+            onClick={[Function]}
+            target="_self"
+          >
+            <div
+              className="flex items-center align-middle"
+            >
+              <ion-icon
+                icon="QrIcon.svg"
+              />
+              <h2
+                className="text-white"
+              >
+                component-profile-menu.text.my-qr-code
+              </h2>
+            </div>
+            <ion-icon
+              icon="ChevronForwardIcon.svg"
+            />
+          </a>
+          <a
+            className="justify-between text-white group flex items-center px-0 py-2 text-lg font-medium rounded-md"
+            href="/payment-methods"
+            onClick={[Function]}
+            target="_self"
+          >
+            <div
+              className="flex items-center align-middle"
+            >
+              <ion-icon
+                icon="CardIcon.svg"
+              />
+              <h2
+                className="text-white"
+              >
+                component-profile-menu.text.payment-methods
+              </h2>
+            </div>
+            <ion-icon
+              icon="ChevronForwardIcon.svg"
+            />
+          </a>
+          <a
+            className="justify-between text-white group flex items-center px-0 py-2 text-lg font-medium rounded-md"
+            href="/transactions"
+            onClick={[Function]}
+            target="_self"
+          >
+            <div
+              className="flex items-center align-middle"
+            >
+              <ion-icon
+                icon="MoneyIcon.svg"
+              />
+              <h2
+                className="text-white"
+              >
+                component-profile-menu.text.transactions
+              </h2>
+            </div>
+            <ion-icon
+              icon="ChevronForwardIcon.svg"
+            />
+          </a>
+          <a
+            className="justify-between text-white group flex items-center px-0 py-2 text-lg font-medium rounded-md"
+            href="/crypto-wallet"
+            onClick={[Function]}
+            target="_self"
+          >
+            <div
+              className="flex items-center align-middle"
+            >
+              <ion-icon
+                icon="CryptoWallet.svg"
+              />
+              <h2
+                className="text-white"
+              >
+                component-profile-menu.text.crypto-wallet
+              </h2>
+            </div>
+            <ion-icon
+              icon="ChevronForwardIcon.svg"
+            />
+          </a>
+          <a
+            className="justify-between text-white group flex items-center px-0 py-2 text-lg font-medium rounded-md"
+            href="/offers/blocks"
+            onClick={[Function]}
+            target="_self"
+          >
+            <div
+              className="flex items-center align-middle"
+            >
+              <ion-icon
+                icon="icon-invest.svg"
+              />
+              <h2
+                className="text-white"
+              >
+                component-profile-menu.text.blocks-etx
+              </h2>
+            </div>
+            <ion-icon
+              icon="ChevronForwardIcon.svg"
+            />
+          </a>
+          <a
+            className="justify-between text-white group flex items-center px-0 py-2 text-lg font-medium rounded-md"
+            href="/merchantcreate"
+            onClick={[Function]}
+            target="_self"
+          >
+            <div
+              className="flex items-center align-middle"
+            >
+              <ion-icon
+                icon="CartIcon.svg"
+              />
+              <h2
+                className="text-white"
+              >
+                component-profile-menu.text.become-merchant
+              </h2>
+            </div>
+            <ion-icon
+              icon="ChevronForwardIcon.svg"
+            />
+          </a>
+          <a
+            className="justify-between text-white group flex items-center px-0 py-2 text-lg font-medium rounded-md"
+            href="/settings"
+            onClick={[Function]}
+            target="_self"
+          >
+            <div
+              className="flex items-center align-middle"
+            >
+              <ion-icon
+                icon="GearIcon.svg"
+              />
+              <h2
+                className="text-white"
+              >
+                component-profile-menu.text.settings
+              </h2>
+            </div>
+            <ion-icon
+              icon="ChevronForwardIcon.svg"
+            />
+          </a>
+          <button
+            className="w-full justify-between text-white group flex items-center px-0 py-2 text-lg font-medium rounded-md"
+            onClick={[Function]}
+            type="button"
+          >
+            <div
+              className="flex items-center align-middle"
+            >
+              <ion-icon
+                icon="ProfileIcon.svg"
+              />
+              <h2
+                className="text-lg"
+              >
+                pages-switch-account.title.switch-accounts
+              </h2>
+            </div>
+            <ion-icon
+              icon="ChevronForwardIcon.svg"
+            />
+          </button>
+          <div
+            onClick={[Function]}
+          >
+            <div
+              className="w-full flex items-center justify-center text-center pt-8"
+            >
+              pull_out_menu_version
+               
+              2.0.2110
+            </div>
+          </div>
+          <div
+            className="flex justify-center mt-3 sm:mt-12 pb-6 w-full"
+          >
+            <button
+              className="text-white select-none outline-none flex justify-center items-center justify-center font-medium w-full text-white py-2 px-4 bg-blue-dark rounded-md active:bg-blue-light active:shadow-button-active active:text-blue-dark transition-all py-3 px-6 text-md sm:leading-none"
+              onClick={[Function]}
+              style={
+                Object {
+                  "minWidth": 160,
+                }
+              }
+              type="button"
+            >
+              <div
+                className="flex"
+              >
+                <span
+                  className="inline-block text-xl font-semibold"
+                >
+                  component-profile-menu.button.invite-friends-to-humbl
+                </span>
+                <span
+                  className="inline-block m-auto ml-1.5"
+                >
+                  <div
+                    className="w-16"
+                  >
+                    <svg
+                      className="block w-full"
+                      viewBox="0 0 143 31"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g
+                        fill="#FFF"
+                        fillRule="nonzero"
+                      >
+                        <path
+                          d="M18.418 1v11.484H7.151V1H0v29.794h7.151V18.335h11.267v12.459h7.259V1zM37.594 1v17.118a7.15 7.15 0 001.3 4.55 4.659 4.659 0 003.9 1.517 5.092 5.092 0 003.9-1.517 6.934 6.934 0 001.3-4.55V1h7.151v17.118c.09 2.45-.47 4.88-1.625 7.042a11.376 11.376 0 01-4.442 4.334 13.543 13.543 0 01-6.392 1.406c-2.18.06-4.339-.423-6.284-1.408a10.4 10.4 0 01-4.334-4.334 14.518 14.518 0 01-1.517-7.148V1h7.043zM93.39 1.217v29.577h-7.151V12.376l-6.392 18.527h-6.175L67.28 12.376v18.527h-7.151V1.217h8.776l8.017 20.585 7.907-20.585zM120.475 18.118a6.934 6.934 0 011.625 4.55 7.476 7.476 0 01-2.492 5.959 11.159 11.159 0 01-7.259 2.167H98.482V.998h13.543c2.5-.159 4.98.528 7.042 1.95a6.934 6.934 0 012.492 5.634 6.609 6.609 0 01-1.408 4.442 6.934 6.934 0 01-3.792 2.384 8.884 8.884 0 014.117 2.709m-14.952-4.875h4.767c2.492 0 3.792-1.083 3.792-3.25s-1.3-3.25-3.792-3.25h-4.658l-.109 6.5zm9.209 8.451a2.817 2.817 0 00-1.083-2.492 4.225 4.225 0 00-3.034-.867h-5.092v6.609h5.092c2.709 0 4.117-1.083 4.117-3.25M133.044 25.268h9.642v5.525h-16.793V1h7.151zM140.519 1a2.167 2.167 0 110 4.334 2.167 2.167 0 010-4.334m0 4.117a1.95 1.95 0 10-1.95-1.95 1.95 1.95 0 001.95 1.95m-.758-3.25h.975c.542 0 .867.217.867.758a.65.65 0 01-.65.65l.758 1.192h-.217l-.758-1.192h-.65v1.192h-.325v-2.6zm.217 1.192h.65c.433 0 .65-.108.65-.433s-.217-.542-.65-.542h-.65v.975z"
+                        />
+                      </g>
+                    </svg>
+                  </div>
+                </span>
+              </div>
+            </button>
+          </div>
+        </ion-menu-toggle>
+      </div>
+    </div>
+  </ion-menu>
+</div>
+`;

@@ -1,0 +1,6 @@
+mutation updateStripeBanking($routingNumber: String, $accountNumber: String) {
+  updateStripeBanking(routingNumber: $routingNumber, accountNumber: $accountNumber) {
+    status
+    verificationRequirements
+  }
+}

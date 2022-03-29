@@ -1,0 +1,20 @@
+query GetPaymentMethod($id: String!) {
+  paymentMethod: getSinglePaymentMethod(pmId: $id) {
+    id
+    lastFour
+    cardBrand {
+      id
+      display
+      image
+    }
+    type
+    expirationDate
+    name
+    streetAddress
+    streetAdditional
+    cityAddress
+    PostalAddress
+    country
+    region
+  }
+}

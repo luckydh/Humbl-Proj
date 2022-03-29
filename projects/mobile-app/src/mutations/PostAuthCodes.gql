@@ -1,0 +1,3 @@
+mutation PostAuthCodes($orderId: String!, $reservationId: String!, $sms: String, $card2Fa: String) {
+  postAuthCodes(orderId: $orderId, reservationId: $reservationId, sms: $sms, card2Fa: $card2Fa)
+}

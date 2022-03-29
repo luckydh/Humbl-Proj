@@ -1,0 +1,41 @@
+{
+  "name": "humbl-pay",
+  "version": "0.0.1",
+  "private": true,
+  "workspaces": [
+    "projects/mobile-app",
+    "projects/ui"
+  ],
+  "scripts": {
+    "test": "",
+    "eslint": "npm run lint -w projects/mobile-app",
+    "eslint:fix": "eslint projects/**/src/**/**.{ts,tsx} --fix",
+    "build:ui": "npm run rollup -w projects/ui",
+    "start:ui": "npm run start -w projects/ui",
+    "build:app": "npm run build -w projects/mobile-app",
+    "start:app": "npm run start -w projects/mobile-app",
+    "build": "npm run build:ui && npm run build:app",
+    "start": "npm run build:ui && npm run start:app"
+  },
+  "dependencies": {
+    "@graphql-codegen/cli": "^2.6.2",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^16.1.0",
+    "graphql": "^15.8.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.12.1",
+    "@typescript-eslint/parser": "^5.12.1",
+    "chromatic": "^6.5.1",
+    "eslint": "^8.9.0",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.5"
+  },
+  "engines": {
+    "npm": "8.1.0",
+    "node": "16.13.0"
+  }
+}

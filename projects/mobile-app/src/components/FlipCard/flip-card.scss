@@ -1,0 +1,51 @@
+.flip-card {
+  .flipper {
+    transform-style: preserve-3d;
+
+    &.vertical {
+      .face {
+        &.back {
+          transform: perspective(500) rotateY(180deg);
+        }
+      }
+    }
+
+    &.horizontal {
+      .face {
+        &.back {
+          transform: perspective(500) rotateX(180deg);
+        }
+      }
+    }
+
+    .face {
+      transform-style: preserve-3d;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+    }
+
+    &.flip-y {
+      .face {
+        &.front {
+          transform: perspective(500) rotateY(180deg);
+        }
+
+        &.back {
+          transform: perspective(500) rotateY(360deg);
+        }
+      }
+    }
+
+    &.flip-x {
+      .face {
+        &.front {
+          transform: perspective(500) rotateX(180deg);
+        }
+
+        &.back {
+          transform: perspective(500) rotateX(360deg);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declarationMap": false,
+    "declaration": true,
+    "target": "es5",
+    "downlevelIteration": true,
+    "typeRoots": ["./projects/**/types", "**/node_modules/@types"],
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react",
+    "noFallthroughCasesInSwitch": true,
+    "paths": {
+      "@humbl-ui": ["./projects/ui/src"]
+    }
+  },
+
+  // "references": [{ "path": "projects/ui" }],
+  "include": [".eslintrc", "./projects/**/*"]
+}

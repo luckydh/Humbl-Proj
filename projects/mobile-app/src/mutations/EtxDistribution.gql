@@ -1,0 +1,34 @@
+mutation etxDistribution(
+  $product: String!
+  $amount: Float!
+  $amountCurrency: String!
+  $userEmail: String!
+  $transactionType: String
+) {
+  etxDistribution(
+    product: $product
+    amount: $amount
+    amountCurrency: $amountCurrency
+    userEmail: $userEmail
+    transactionType: $transactionType
+  ) {
+    uuid
+    destinationAsset {
+      price
+    }
+    product
+    sourceCurrencyCode
+    sourceAmount
+    distribution {
+      amount
+      currency
+    }
+    depositAddresses {
+      BTC
+      ETH
+      XLM
+      AVAX
+      MATIC
+    }
+  }
+}

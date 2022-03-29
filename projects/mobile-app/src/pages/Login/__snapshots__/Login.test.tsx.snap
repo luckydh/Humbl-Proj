@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Login page 1`] = `
+<div
+  className="flex flex-grow flex-col h-full flex-shrink-0"
+>
+  <div
+    className="flex flex-col flex-1 flex-shrink-0 justify-center"
+  >
+    <div
+      className="flex flex-col items-center justify-center"
+    >
+      <h1
+        aria-label="LOGIN_TITLE_LABEL"
+        className="font-medium text-3xl leading-snug text-white"
+      >
+        login-page.title.login
+      </h1>
+    </div>
+    <form
+      onSubmit={[Function]}
+    >
+      <div
+        className="my-4"
+      >
+        <div
+          className="mb-2"
+        >
+          <div
+            className="ml-2"
+          >
+            <label
+              aria-label="LOGIN_EMAIL_LABEL"
+              className="block text-xs uppercase text-white opacity-80 font-medium mb-1"
+            >
+              login-page.label.email
+            </label>
+          </div>
+          <div
+            className="py-0 w-full flex items-center rounded-lg select-none bg-blue border-white border-2 border-solid outline-none"
+          >
+            <input
+              className="text-white placeholder-white-faded w-full rounded-lg bg-transparent text-md sm:text-xl outline-none border-none focus:border-transparent focus:outline-none focus:ring-0 focus:placeholder-transparent"
+              name="email"
+              placeholder="login-page.input.placeholder.email-address"
+              style={
+                Object {
+                  "fontSize": 20,
+                  "height": 48,
+                }
+              }
+              type="email"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="my-4"
+      >
+        <div
+          className="mb-2"
+        >
+          <div
+            className="ml-2"
+          >
+            <label
+              aria-label="LOGIN_PASSWORD_LABEL"
+              className="block text-xs uppercase text-white opacity-80 font-medium mb-1"
+            >
+              login-page.label.password
+            </label>
+          </div>
+          <div
+            className="py-0 w-full flex items-center rounded-lg select-none bg-blue border-white border-2 border-solid outline-none"
+          >
+            <input
+              className="text-white placeholder-white-faded w-full rounded-lg bg-transparent text-md sm:text-xl outline-none border-none focus:border-transparent focus:outline-none focus:ring-0 focus:placeholder-transparent"
+              name="password"
+              placeholder="login-page.input.placeholder.password"
+              style={
+                Object {
+                  "fontSize": 20,
+                  "height": 48,
+                }
+              }
+              type="password"
+            />
+            <div
+              className="max-h-8 flex"
+              style={
+                Object {
+                  "maxWidth": "3.5rem",
+                }
+              }
+            >
+              <div
+                aria-label="LOGIN_PASSWORD_SHOW_INPUT"
+                className="text-xs mr-2"
+                onClick={[Function]}
+              >
+                input.show
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="my-6 flex justify-center"
+      >
+        <button
+          aria-label="LOGIN_LOGIN_BUTTON"
+          className="text-white select-none outline-none flex justify-center items-center justify-center font-medium w-full text-white py-2 px-4 bg-blue-dark rounded-md active:bg-blue-light active:shadow-button-active active:text-blue-dark transition-all py-3 px-6 text-md sm:leading-none"
+          onClick={[Function]}
+          style={
+            Object {
+              "minWidth": 160,
+            }
+          }
+          type="submit"
+        >
+          login-page.button.login
+        </button>
+      </div>
+      <div
+        className="mb-4 flex flex-col text-xl"
+      >
+        <a
+          aria-label="LOGIN_FORGOTPASSWORD_BUTTON"
+          className="mx-auto m-1 text-white"
+          href="/forgotpass"
+          onClick={[Function]}
+        >
+          login-page.link.forgot-password
+        </a>
+        <a
+          aria-label="LOGIN_CREATEACCOUNT_BUTTON"
+          className="mx-auto m-1 text-white"
+          href="/signup"
+          onClick={[Function]}
+        >
+          login-page.link.create-a-new-account
+        </a>
+      </div>
+    </form>
+  </div>
+  <div
+    className="mb-4 flex flex-col text-lg"
+  >
+    <button
+      aria-label="CHANGELANGUAGE_BUTTON"
+      className="mx-auto m-1 text-white text-xl flex flex-col items-center"
+      onClick={[Function]}
+      type="button"
+    >
+      <ion-icon
+        icon="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' class='ionicon' viewBox='0 0 512 512'><title>Globe</title><path d='M256 48C141.13 48 48 141.13 48 256s93.13 208 208 208 208-93.13 208-208S370.87 48 256 48z' stroke-miterlimit='10' class='ionicon-fill-none ionicon-stroke-width'/><path d='M256 48c-58.07 0-112.67 93.13-112.67 208S197.93 464 256 464s112.67-93.13 112.67-208S314.07 48 256 48z' stroke-miterlimit='10' class='ionicon-fill-none ionicon-stroke-width'/><path d='M117.33 117.33c38.24 27.15 86.38 43.34 138.67 43.34s100.43-16.19 138.67-43.34M394.67 394.67c-38.24-27.15-86.38-43.34-138.67-43.34s-100.43 16.19-138.67 43.34' stroke-linecap='round' stroke-linejoin='round' class='ionicon-fill-none ionicon-stroke-width'/><path stroke-miterlimit='10' d='M256 48v416M464 256H48' class='ionicon-fill-none ionicon-stroke-width'/></svg>"
+      />
+      <span
+        className="text-base"
+      >
+        core.link.language
+      </span>
+    </button>
+  </div>
+</div>
+`;

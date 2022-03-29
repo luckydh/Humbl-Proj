@@ -1,0 +1,14 @@
+query GetMyPaymentMethods($paymentMethodCategory: PaymentMethodCategory) {
+  paymentMethods(type: $paymentMethodCategory) {
+    id
+    name
+    lastFour
+    expirationDate
+    status
+    type
+    cardBrand {
+      display
+      image
+    }
+  }
+}

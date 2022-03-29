@@ -1,0 +1,16 @@
+query getAllPortfolio {
+  getetxPortfolio {
+    totalFiatBalance
+    fiatCurrencyCode
+    lastRebalancingOn
+    portfolio {
+      logoImage
+      cryptoAmount
+      currencyName
+      currency
+      fiatAmount
+      fiatCurrency
+      amountPer
+    }
+  }
+}

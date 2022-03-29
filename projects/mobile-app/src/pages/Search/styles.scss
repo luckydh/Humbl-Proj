@@ -1,0 +1,54 @@
+.search-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header {
+  padding: 8px;
+}
+.logo {
+  width: 150px;
+  margin: 8px auto 16px;
+}
+ion-list {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+ion-searchbar {
+  text-align: left;
+}
+.noresults {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h3 {
+    margin-top: 16px;
+  }
+}
+h3, p { 
+  color: white;
+}
+.sendinvite {
+  margin: 0 auto 20px;
+}
+ion-item {
+  margin-bottom: 8px;
+  .userInfo {
+    margin-left: 8px;
+    h3, p {
+      margin: 0;
+    }
+    p {
+      margin-top: 4px;
+    }
+  }
+  a {
+    margin-left: 0;
+    ion-icon {
+      color: white;
+    }
+  }
+}

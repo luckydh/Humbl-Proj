@@ -1,0 +1,72 @@
+# Write your query or mutation here
+query getAccountById($id: String!) {
+  accountById(id: $id) {
+    userName
+    hasMultipleAccounts
+    isMerchant
+    isPrivate
+    hasMerchantAccount
+    displayName
+    phone
+    city
+    kycNeeded
+    kycStatus {
+      status
+      requirements
+    }
+    country {
+      name
+      alpha2
+      currencyCode
+    }
+    image
+    id
+    qr {
+      image
+      code
+    }
+    creationMethod
+    merchantProfileDetails {
+      id
+      acceptsPayments
+      payoutsEnabled
+      capabilities
+      currency
+      geom
+      merchantType
+      address {
+        street
+        streetAdditional
+        city
+        region
+        postal
+      }
+      country {
+        name
+        alpha2
+      }
+      status
+      businessDetails {
+        type
+        hasBanking
+        hasOnboarded
+        chargesEnabled
+        payoutsEnabled
+        pastDueRequirements
+        currentlyDueRequirements
+        requirementsDueDate
+      }
+    }
+    averageRating
+    reviews {
+      pageInfo {
+        totalCount
+      }
+    }
+    transactions {
+      pageInfo {
+        totalCount
+      }
+    }
+  }
+}

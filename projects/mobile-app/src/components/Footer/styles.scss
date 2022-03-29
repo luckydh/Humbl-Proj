@@ -1,0 +1,42 @@
+ion-tab-bar.v1_ionTabBar {
+  height: 64px;
+  border: none;
+
+  .icon-container {
+    width: 32px;
+    height: 32px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: var(--blue);
+
+    ion-icon {
+      font-size: 20px;
+    }
+  }
+
+  ion-label {
+    color: white;
+    font-size: 12px;
+  }
+
+  ion-tab-button {
+    opacity: 0.65;
+
+    ion-label {
+      margin: 4px 0 0 0 !important;
+    }
+
+    &.tab-selected {
+      opacity: 1;
+      font-weight: bold;
+      ion-text {
+        font-weight: bold;
+      }
+      ion-label {
+        font-weight: bold;
+      }
+    }
+  }
+}

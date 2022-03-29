@@ -1,0 +1,8 @@
+query getMyAssetInterestRates {
+  myAssetInterestRates {
+    code
+    name
+    logoImage
+    interestRate
+  }
+}

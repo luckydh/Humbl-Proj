@@ -1,0 +1,9 @@
+query searchAccounts($search: String!, $isMerchant: Boolean = true) {
+  searchAccounts(searchString: $search, isMerchant: $isMerchant) {
+    id
+    userName
+    displayName
+    image
+    isMerchant
+  }
+}

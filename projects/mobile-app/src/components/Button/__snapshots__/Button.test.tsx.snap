@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders default pill button correctly 1`] = `
+<button
+  className="text-white select-none outline-none flex justify-center items-center justify-center font-medium w-full text-white py-2 px-4 bg-blue-dark rounded-md active:bg-blue-light active:shadow-button-active active:text-blue-dark transition-all py-3 px-6 text-md sm:leading-none"
+  onClick={[Function]}
+  style={
+    Object {
+      "minWidth": 160,
+    }
+  }
+  type="button"
+>
+  Default Button
+</button>
+`;
+
+exports[`renders large pill button correctly 1`] = `
+<button
+  className="text-white select-none outline-none flex justify-center items-center justify-center font-medium w-full text-white py-2 px-4 bg-blue-dark rounded-md active:bg-blue-light active:shadow-button-active active:text-blue-dark transition-all text-xl py-4 px-10"
+  onClick={[Function]}
+  type="button"
+>
+  Large Button
+</button>
+`;
+
+exports[`renders large square button correctly 1`] = `
+<button
+  className="text-white select-none outline-none flex justify-center items-center rounded-lg bg-blue-dark active:bg-blue-light active:shadow-button-active border-2 border-solid border-blue-dark text-xl py-4 px-10"
+  onClick={[Function]}
+  type="button"
+>
+  Large Square Button
+</button>
+`;
+
+exports[`renders outline button correctly 1`] = `
+<button
+  className="text-white select-none outline-none flex justify-center items-center rounded-md font-medium w-full text-white py-2 px-4 shadow-button-outline active:bg-white-faded py-3 px-6 text-md sm:leading-none"
+  onClick={[Function]}
+  type="button"
+>
+  Outline Button
+</button>
+`;
+
+exports[`renders square pill button correctly 1`] = `
+<button
+  className="text-white select-none outline-none flex justify-center items-center rounded-lg bg-blue-dark active:bg-blue-light active:shadow-button-active border-2 border-solid border-blue-dark py-3 px-6 text-md sm:leading-none"
+  onClick={[Function]}
+  type="button"
+>
+  Square Button
+</button>
+`;
+
+exports[`renders submit button correctly 1`] = `
+<button
+  className="text-white select-none outline-none flex justify-center items-center justify-center font-medium w-full text-white py-2 px-4 bg-blue-dark rounded-md active:bg-blue-light active:shadow-button-active active:text-blue-dark transition-all py-3 px-6 text-md sm:leading-none"
+  onClick={[Function]}
+  style={
+    Object {
+      "minWidth": 160,
+    }
+  }
+  type="submit"
+>
+  Submit Button
+</button>
+`;
+
+exports[`renders text button correctly 1`] = `
+<button
+  className="text-white select-none outline-none flex justify-center items-center justify-center font-medium w-full text-white py-2 px-4 active:shadow-button-active transition-all py-3 px-6 text-md sm:leading-none"
+  onClick={[Function]}
+  type="button"
+>
+  Text Button
+</button>
+`;

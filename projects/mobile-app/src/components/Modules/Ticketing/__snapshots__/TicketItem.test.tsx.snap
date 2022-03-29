@@ -1,0 +1,220 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ticket item with badge 1`] = `
+<div
+  className="border-b border-gray-200 mb-6 pb-6 text-white"
+>
+  <div>
+    <div
+      className="flex w-full justify-between"
+    >
+      <div
+        className="mr-4"
+        style={
+          Object {
+            "maxWidth": "13rem",
+          }
+        }
+      >
+        <h3
+          className="font-bold text-xl"
+        >
+           
+          Early Bird
+        </h3>
+        <h4
+          className="text-lg my-1"
+        >
+          $49.00
+        </h4>
+        <div />
+      </div>
+      <div>
+        <span
+          className="inline-flex items-center px-4 py-1 rounded-full text-base font-medium bg-red-light text-red"
+        >
+          Sold Out
+        </span>
+      </div>
+    </div>
+    <div />
+  </div>
+</div>
+`;
+
+exports[`renders ticket item with end date 1`] = `
+<div
+  className="border-b border-gray-200 mb-6 pb-6 text-white"
+>
+  <div>
+    <div
+      className="flex w-full justify-between"
+    >
+      <div
+        className="mr-4"
+        style={
+          Object {
+            "maxWidth": "13rem",
+          }
+        }
+      >
+        <h3
+          className="font-bold text-xl"
+        >
+           
+          General Admission
+        </h3>
+        <h4
+          className="text-lg my-1"
+        >
+          $25.00
+        </h4>
+        <p
+          className="text-base"
+        >
+          ticketing.component.ticket_item.sales_end_on
+           
+          Wednesday, Nov 9, 2016
+        </p>
+        <div />
+      </div>
+      <div>
+        <select
+          className="py-2 px-4 w-full rounded-lg font-semibold bg-blue border-white border-1 outline-none text-white placeholder-white-faded text-xl block focus:ring-indigo-500 focus:border-white focus:border-transparent focus:outline-none focus:ring-0 focus:placeholder-transparent"
+          name="ticket1"
+          style={
+            Object {
+              "fontSize": 20,
+              "height": 47,
+              "minWidth": 84,
+            }
+          }
+        >
+          <option>
+            0
+          </option>
+          <option>
+            1
+          </option>
+          <option>
+            2
+          </option>
+          <option>
+            3
+          </option>
+          <option>
+            4
+          </option>
+          <option>
+            5
+          </option>
+          <option>
+            6
+          </option>
+          <option>
+            7
+          </option>
+          <option>
+            8
+          </option>
+          <option>
+            9
+          </option>
+          <option>
+            10
+          </option>
+        </select>
+      </div>
+    </div>
+    <div />
+  </div>
+</div>
+`;
+
+exports[`renders ticket item without end date 1`] = `
+<div
+  className="border-b border-gray-200 mb-6 pb-6 text-white"
+>
+  <div>
+    <div
+      className="flex w-full justify-between"
+    >
+      <div
+        className="mr-4"
+        style={
+          Object {
+            "maxWidth": "13rem",
+          }
+        }
+      >
+        <h3
+          className="font-bold text-xl"
+        >
+           
+          General Admission
+        </h3>
+        <h4
+          className="text-lg my-1"
+        >
+          $25.00
+        </h4>
+        <div />
+      </div>
+      <div>
+        <select
+          className="py-2 px-4 w-full rounded-lg font-semibold bg-blue border-white border-1 outline-none text-white placeholder-white-faded text-xl block focus:ring-indigo-500 focus:border-white focus:border-transparent focus:outline-none focus:ring-0 focus:placeholder-transparent"
+          name="ticket1"
+          style={
+            Object {
+              "fontSize": 20,
+              "height": 47,
+              "minWidth": 84,
+            }
+          }
+        >
+          <option>
+            0
+          </option>
+          <option>
+            1
+          </option>
+          <option>
+            2
+          </option>
+          <option>
+            3
+          </option>
+          <option>
+            4
+          </option>
+          <option>
+            5
+          </option>
+          <option>
+            6
+          </option>
+          <option>
+            7
+          </option>
+          <option>
+            8
+          </option>
+          <option>
+            9
+          </option>
+          <option>
+            10
+          </option>
+          <option>
+            11
+          </option>
+          <option>
+            12
+          </option>
+        </select>
+      </div>
+    </div>
+    <div />
+  </div>
+</div>
+`;

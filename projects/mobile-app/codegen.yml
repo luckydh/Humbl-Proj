@@ -1,0 +1,22 @@
+overwrite: true
+schema:
+  - "${REACT_APP_HUMBL_DATA_URL}":
+      headers:
+        X-Auth-Key: "${X_AUTH_KEY}"
+documents: "src/**/*.gql"
+generates:
+  src/generated/graphql.tsx:
+    plugins:
+      - "typescript"
+      - "typescript-operations"
+      - "typescript-react-apollo"
+      - "fragment-matcher"
+    config:
+      maybeValue: T
+  src/generated/createApolloMock.js:
+    plugins:
+      - apollo-typed-documents/lib/codegenApolloMock
+
+  ./graphql.schema.json:
+    plugins:
+      - "introspection"

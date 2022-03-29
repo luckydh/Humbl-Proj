@@ -1,0 +1,8 @@
+query myUserProfile {
+  myUserProfile {
+    firstName
+    lastName
+    fullName
+    createdOn
+  }
+}

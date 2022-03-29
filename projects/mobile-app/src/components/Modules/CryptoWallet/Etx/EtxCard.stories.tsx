@@ -1,0 +1,25 @@
+import React from "react";
+import { Story, Meta } from "@storybook/react/types-6-0";
+import withPadding from "utils/withPadding";
+import { EtxCard, EtxCardProps } from "./EtxCard";
+import { MockedProvider } from "@apollo/client/testing";
+
+export default {
+  title: "CryptoWallet/Components/EtxCard",
+  component: EtxCard,
+  decorators: [withPadding],
+} as Meta;
+
+const Template: Story<EtxCardProps> = (args) => (
+  <MockedProvider>
+    <EtxCard {...args} />
+  </MockedProvider>
+);
+
+export const Primary = Template.bind({});
+Primary.args = {
+  blockName: "Block X",
+  totalInvestment: 850,
+  perf: 269.73,
+  logo: "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjgiIGhlaWdodD0iMjkiIHZpZXdCb3g9IjAgMCAyOCAyOSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjI4IiBoZWlnaHQ9IjI4Ljc2NDciIHJ4PSIxNCIgZmlsbD0iIzRBQzZGOCIvPgo8cGF0aCBkPSJNMjIuNTkzIDkuNzE1NjhIMjIuNTMyOEwxNC42NDc4IDUuMTM1NDFDMTQuNDkxOCA1LjA0Njc5IDE0LjMxMzUgNSAxNC4xMzE4IDVDMTMuOTUwMiA1IDEzLjc3MTkgNS4wNDY3OSAxMy42MTU5IDUuMTM1NDFMNS42MDE5MiA5Ljc4MTExTDUuNTE1OTMgOS44MzgzN0M1LjM2MjEyIDkuOTAyMjIgNS4yMzEzMSAxMC4wMDc1IDUuMTM5NjMgMTAuMTQxMkM1LjA0Nzk2IDEwLjI3NDkgNC45OTk0MiAxMC40MzEyIDUuMDAwMDEgMTAuNTkwOFYxOC41ODk5QzUuMDAwNzUgMTguNzY3NiA1LjA0OTM1IDE4Ljk0MiA1LjE0MTE4IDE5LjA5NjdDNS4yMzMwMSAxOS4yNTEzIDUuMzY1IDE5LjM4MSA1LjUyNDUzIDE5LjQ3MzNMMTMuNDE4MSAyNC4wMjlDMTMuNTg4NSAyNC4xMjU1IDEzLjc4MzEgMjQuMTc2NSAxMy45ODE0IDI0LjE3NjVDMTQuMTc5NiAyNC4xNzY1IDE0LjM3NDIgMjQuMTI1NSAxNC41NDQ2IDI0LjAyOUwyMi41ODQ0IDE5LjM4MzNDMjIuNzQ1NSAxOS4yOTIgMjIuODc5MiAxOS4xNjI4IDIyLjk3MjYgMTkuMDA4MUMyMy4wNjU5IDE4Ljg1MzQgMjMuMTE1OSAxOC42Nzg0IDIzLjExNzUgMTguNVYxMC40ODQ1QzIzLjEyMDggMTAuMzIxMiAyMy4wNzI2IDEwLjE2MDcgMjIuOTc5MSAxMC4wMjM2QzIyLjg4NTYgOS44ODY2MiAyMi43NTExIDkuNzc5MzYgMjIuNTkzIDkuNzE1NjhWOS43MTU2OFpNMTMuMTQzIDIxLjk4NDNMNi43MjgzNSAxOC4yNTQ2VjEyLjAzMDRMMTMuMTQzIDE1LjcyNzNWMjEuOTg0M1pNMTQuMDAyOSAxNC4zMzY4TDcuNTI4MDMgMTAuNTgyN0wxNC4xMzE4IDYuNzU0ODdMMjAuNjA2NyAxMC40ODQ1TDE0LjAwMjkgMTQuMzM2OFpNMjEuNDE0OSAxOC4xODkyTDE0Ljg3MTMgMjEuOTY3OVYxNS43NTE4TDIxLjQxNDkgMTEuOTczMVYxOC4xODkyWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==",
+};

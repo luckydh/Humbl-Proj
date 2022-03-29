@@ -1,0 +1,11 @@
+mutation ConfirmTransferQuote($quoteId: String, $assetCode: String) {
+  confirmQuote(quoteId: $quoteId, assetName: $assetCode) {
+    sourceAmount
+    sourceCurrencyCode
+    destinationAmount
+    email
+    transactionId
+    fiatAmount
+    fiatCurrencyCode
+  }
+}

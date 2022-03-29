@@ -1,0 +1,19 @@
+query getWallet($type: String) {
+  wallet {
+    id
+    assets(type: $type) {
+      name
+      code
+      amount
+      logoImage
+      fiatAmount {
+        value
+        display
+        major
+      }
+      currency
+      interestGaining
+      exchangeRate
+    }
+  }
+}

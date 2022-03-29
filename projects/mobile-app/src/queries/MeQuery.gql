@@ -1,0 +1,53 @@
+query Me {
+  me {
+    userName
+    hasMultipleAccounts
+    hasMerchantAccount
+    isMerchant
+    displayName
+    image
+    id
+    city
+    isPrivate
+    phone
+    country {
+      name
+      alpha2
+      currencyCode
+    }
+    qr {
+      image
+      code
+    }
+    merchantProfileDetails {
+      id
+      merchantType
+      displayName
+      address {
+        street
+        streetAdditional
+        city
+        region
+        postal
+      }
+      status
+      currency
+      countryCode
+      acceptsPayments
+      payoutsEnabled
+      capabilities
+      geom
+      country {
+        name
+        alpha2
+      }
+    }
+
+    recentlyTransactedWith {
+      id
+      userName
+      displayName
+      image
+    }
+  }
+}

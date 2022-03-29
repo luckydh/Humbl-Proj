@@ -1,0 +1,27 @@
+mutation CreateCardAssetOrder(
+  $sourceAmount: String
+  $sourceCurrency: String
+  $reservationId: String
+  $paymentMethodId: String
+  $cvvConfirmation: String
+  $destinationCurrency: String
+) {
+  createCardAssetOrder(
+    sourceAmount: $sourceAmount
+    sourceCurrency: $sourceCurrency
+    reservationId: $reservationId
+    paymentMethodId: $paymentMethodId
+    cvvConfirmation: $cvvConfirmation
+    destinationCurrency: $destinationCurrency
+  ) {
+    transaction {
+      id
+    }
+    walletOrder {
+      id
+      status
+      smsNeeded
+      card2faNeeded
+    }
+  }
+}

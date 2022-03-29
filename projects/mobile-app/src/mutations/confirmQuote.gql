@@ -1,0 +1,13 @@
+mutation confirmQuote(
+  $quoteId: String
+) {
+  confirmQuote (
+    quoteId: $quoteId
+  ) {
+    destinationAmount
+    destinationCurrency 
+    destinationCurrencyCode
+    transactionId
+    email
+  }
+}

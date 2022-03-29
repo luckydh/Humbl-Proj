@@ -1,0 +1,1444 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Button Grid 1`] = `
+<div
+  className="block w-full h-full p-5"
+>
+  <div
+    className="uikit-grid uikit-grid-cols-2 uikit-grid-rows-1 uikit-gap-4"
+  >
+    <div>
+      <button
+        className="uikit-flex uikit-justify-center uikit-items-center uikit-rounded-md uikit-transition-all uikit-duration-300 uikit-border-2 uikit-outline-none uikit-relative uikit-overflow-hidden focus:uikit-outline-none focus:uikit-shadow-none disabled:uikit-opacity-50 uikit-bg-blue-400 uikit-text-white uikit-border-blue-400 uikit-px-4 uikit-py-1.5"
+      >
+        Primary
+      </button>
+    </div>
+    <div>
+      <button
+        className="uikit-flex uikit-justify-center uikit-items-center uikit-rounded-md uikit-transition-all uikit-duration-300 uikit-border-2 uikit-outline-none uikit-relative uikit-overflow-hidden focus:uikit-outline-none focus:uikit-shadow-none disabled:uikit-opacity-50 uikit-text-blue-400 uikit-bg-blue-100 uikit-border-blue-100 uikit-px-4 uikit-py-1.5"
+      >
+        Secondary
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Button Link 1`] = `
+<div
+  className="block w-full h-full p-5"
+>
+  <button
+    className="uikit-flex uikit-justify-center uikit-items-center uikit-rounded-md uikit-transition-all uikit-duration-300 uikit-border-2 uikit-outline-none uikit-relative uikit-overflow-hidden focus:uikit-outline-none focus:uikit-shadow-none disabled:uikit-opacity-50 uikit-text-blue-400 uikit-border-transparent uikit-px-4 uikit-py-1.5"
+    disabled={false}
+    onClick={[Function]}
+  >
+    Link Button
+  </button>
+</div>
+`;
+
+exports[`Storyshots Button Primary 1`] = `
+<div
+  className="block w-full h-full p-5"
+>
+  <button
+    className="uikit-flex uikit-justify-center uikit-items-center uikit-rounded-md uikit-transition-all uikit-duration-300 uikit-border-2 uikit-outline-none uikit-relative uikit-overflow-hidden focus:uikit-outline-none focus:uikit-shadow-none disabled:uikit-opacity-50 uikit-bg-blue-400 uikit-text-white uikit-border-blue-400 uikit-px-4 uikit-py-1.5"
+    disabled={false}
+    onClick={[Function]}
+  >
+    Primary Button
+  </button>
+</div>
+`;
+
+exports[`Storyshots Button Secondary 1`] = `
+<div
+  className="block w-full h-full p-5"
+>
+  <button
+    className="uikit-flex uikit-justify-center uikit-items-center uikit-rounded-md uikit-transition-all uikit-duration-300 uikit-border-2 uikit-outline-none uikit-relative uikit-overflow-hidden focus:uikit-outline-none focus:uikit-shadow-none disabled:uikit-opacity-50 uikit-text-blue-400 uikit-bg-blue-100 uikit-border-blue-100 uikit-px-4 uikit-py-1.5"
+    disabled={false}
+    onClick={[Function]}
+  >
+    Secondary Button
+  </button>
+</div>
+`;
+
+exports[`Storyshots Button Tertiary 1`] = `
+<div
+  className="block w-full h-full p-5"
+>
+  <button
+    className="uikit-flex uikit-justify-center uikit-items-center uikit-rounded-md uikit-transition-all uikit-duration-300 uikit-border-2 uikit-outline-none uikit-relative uikit-overflow-hidden focus:uikit-outline-none focus:uikit-shadow-none disabled:uikit-opacity-50 uikit-bg-transparent uikit-text-blue-400 uikit-border-blue-400 uikit-px-4 uikit-py-1.5"
+    disabled={false}
+    onClick={[Function]}
+  >
+    Tertiary Button
+  </button>
+</div>
+`;
+
+exports[`Storyshots Fields/TextField Error 1`] = `
+<div
+  className="block w-full h-full p-5"
+>
+  <div>
+    <div
+      className="uikit-relative uikit-border uikit-rounded-md uikit-border-red-100"
+    >
+      <input
+        className="uikit-border-transparent focus:uikit-ring-0 focus:uikit-border-transparent uikit-block uikit-p-3 uikit-w-full uikit-text-sm uikit-text-black uikit-appearance-none focus:uikit-outline-none uikit-bg-transparent uikit-placeholder-grey-400"
+        defaultValue="email@gmail.comm"
+        id="firstName"
+        name="firstName"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder=""
+      />
+      <label
+        className="uikit-absolute uikit-top-px uikit-p-3 uikit-text-sm uikit--z-1 uikit-duration-200 uikit-origin-0 uikit-transform uikit-scale-75 uikit--translate-y-3 uikit-z-0 uikit-ml-3 uikit-px-2 uikit-py-0 uikit-rounded-sm uikit-bg-white uikit-text-red-100"
+        htmlFor="firstName"
+      >
+        First name
+      </label>
+    </div>
+    <div
+      className="uikit-text-xs uikit-py-1 uikit-pl-3 uikit-text-red-100"
+    >
+      Error message
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Fields/TextField Grid 1`] = `
+<div
+  className="block w-full h-full p-5"
+>
+  <div
+    className="uikit-space-y-4"
+  >
+    <div>
+      <div
+        className="uikit-relative uikit-border uikit-rounded-md uikit-border-green-100"
+      >
+        <input
+          className="uikit-border-transparent focus:uikit-ring-0 focus:uikit-border-transparent uikit-block uikit-p-3 uikit-w-full uikit-text-sm uikit-text-black uikit-appearance-none focus:uikit-outline-none uikit-bg-transparent uikit-placeholder-grey-400"
+          defaultValue="humbluser123"
+          id="username"
+          name="username"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder=""
+          type="text"
+        />
+        <label
+          className="uikit-absolute uikit-top-px uikit-p-3 uikit-text-sm uikit--z-1 uikit-duration-200 uikit-origin-0 uikit-transform uikit-scale-75 uikit--translate-y-3 uikit-z-0 uikit-ml-3 uikit-px-2 uikit-py-0 uikit-rounded-sm uikit-bg-white uikit-text-green-100"
+          htmlFor="username"
+        >
+          Username
+        </label>
+      </div>
+      <div
+        className="uikit-text-xs uikit-py-1 uikit-pl-3 uikit-text-green-100"
+      >
+        This username is available.
+      </div>
+    </div>
+    <div>
+      <div
+        className="uikit-relative uikit-border uikit-rounded-md uikit-border-red-100"
+      >
+        <input
+          className="uikit-border-transparent focus:uikit-ring-0 focus:uikit-border-transparent uikit-block uikit-p-3 uikit-w-full uikit-text-sm uikit-text-black uikit-appearance-none focus:uikit-outline-none uikit-bg-transparent uikit-placeholder-grey-400"
+          defaultValue="email@gmail.comm"
+          id="email"
+          name="email"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder=""
+          type="email"
+        />
+        <label
+          className="uikit-absolute uikit-top-px uikit-p-3 uikit-text-sm uikit--z-1 uikit-duration-200 uikit-origin-0 uikit-transform uikit-scale-75 uikit--translate-y-3 uikit-z-0 uikit-ml-3 uikit-px-2 uikit-py-0 uikit-rounded-sm uikit-bg-white uikit-text-red-100"
+          htmlFor="email"
+        >
+          Email
+        </label>
+      </div>
+      <div
+        className="uikit-text-xs uikit-py-1 uikit-pl-3 uikit-text-red-100"
+      >
+        Please provide a valid email.
+      </div>
+    </div>
+    <div>
+      <div
+        className="uikit-relative uikit-border uikit-rounded-md uikit-border-grey-300 focus-within:uikit-border-blue-400"
+      >
+        <input
+          className="uikit-border-transparent focus:uikit-ring-0 focus:uikit-border-transparent uikit-block uikit-p-3 uikit-w-full uikit-text-sm uikit-text-black uikit-appearance-none focus:uikit-outline-none uikit-bg-transparent uikit-placeholder-grey-400"
+          defaultValue="Test123"
+          id="password"
+          name="password"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder=""
+          type="password"
+        />
+        <label
+          className="uikit-absolute uikit-top-px uikit-p-3 uikit-text-sm uikit--z-1 uikit-duration-200 uikit-origin-0 uikit-transform uikit-scale-75 uikit--translate-y-3 uikit-z-0 uikit-ml-3 uikit-px-2 uikit-py-0 uikit-rounded-sm uikit-bg-white uikit-text-black"
+          htmlFor="password"
+        >
+          Password
+        </label>
+      </div>
+      <div
+        className="uikit-text-xs uikit-py-1 uikit-pl-3 uikit-text-grey-500"
+      >
+        Password should only contain letters, numbers and special characters.
+      </div>
+    </div>
+    <div
+      className="uikit-flex uikit-space-x-4"
+    >
+      <div>
+        <div
+          className="uikit-relative uikit-border uikit-rounded-md uikit-border-grey-300 focus-within:uikit-border-blue-400"
+        >
+          <input
+            className="uikit-border-transparent focus:uikit-ring-0 focus:uikit-border-transparent uikit-block uikit-p-3 uikit-w-full uikit-text-sm uikit-text-black uikit-appearance-none focus:uikit-outline-none uikit-bg-transparent uikit-placeholder-grey-400"
+            id="state"
+            name="state"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder=""
+            type="text"
+          />
+          <label
+            className="uikit-absolute uikit-top-px uikit-p-3 uikit-text-sm uikit--z-1 uikit-duration-200 uikit-origin-0 uikit-text-grey-300"
+            htmlFor="state"
+          >
+            State
+          </label>
+        </div>
+      </div>
+      <div>
+        <div
+          className="uikit-relative uikit-border uikit-rounded-md uikit-border-grey-300 focus-within:uikit-border-blue-400"
+        >
+          <input
+            className="uikit-border-transparent focus:uikit-ring-0 focus:uikit-border-transparent uikit-block uikit-p-3 uikit-w-full uikit-text-sm uikit-text-black uikit-appearance-none focus:uikit-outline-none uikit-bg-transparent uikit-placeholder-grey-400"
+            id="city"
+            name="city"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder=""
+            type="text"
+          />
+          <label
+            className="uikit-absolute uikit-top-px uikit-p-3 uikit-text-sm uikit--z-1 uikit-duration-200 uikit-origin-0 uikit-text-grey-300"
+            htmlFor="city"
+          >
+            City
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Fields/TextField Input Types 1`] = `
+<div
+  className="block w-full h-full p-5"
+>
+  <div
+    className="uikit-space-y-4"
+  >
+    <div>
+      <div
+        className="uikit-relative uikit-border uikit-rounded-md uikit-border-grey-300 focus-within:uikit-border-blue-400"
+      >
+        <input
+          className="uikit-border-transparent focus:uikit-ring-0 focus:uikit-border-transparent uikit-block uikit-p-3 uikit-w-full uikit-text-sm uikit-text-black uikit-appearance-none focus:uikit-outline-none uikit-bg-transparent uikit-placeholder-grey-400"
+          id="email"
+          name="email"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder=""
+          type="email"
+        />
+        <label
+          className="uikit-absolute uikit-top-px uikit-p-3 uikit-text-sm uikit--z-1 uikit-duration-200 uikit-origin-0 uikit-text-grey-300"
+          htmlFor="email"
+        >
+          Email
+        </label>
+      </div>
+    </div>
+    <div>
+      <div
+        className="uikit-relative uikit-border uikit-rounded-md uikit-border-grey-300 focus-within:uikit-border-blue-400"
+      >
+        <input
+          className="uikit-border-transparent focus:uikit-ring-0 focus:uikit-border-transparent uikit-block uikit-p-3 uikit-w-full uikit-text-sm uikit-text-black uikit-appearance-none focus:uikit-outline-none uikit-bg-transparent uikit-placeholder-grey-400"
+          id="number"
+          name="number"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder=""
+          type="number"
+        />
+        <label
+          className="uikit-absolute uikit-top-px uikit-p-3 uikit-text-sm uikit--z-1 uikit-duration-200 uikit-origin-0 uikit-text-grey-300"
+          htmlFor="number"
+        >
+           Number
+        </label>
+      </div>
+    </div>
+    <div>
+      <div
+        className="uikit-relative uikit-border uikit-rounded-md uikit-border-grey-300 focus-within:uikit-border-blue-400"
+      >
+        <input
+          className="uikit-border-transparent focus:uikit-ring-0 focus:uikit-border-transparent uikit-block uikit-p-3 uikit-w-full uikit-text-sm uikit-text-black uikit-appearance-none focus:uikit-outline-none uikit-bg-transparent uikit-placeholder-grey-400"
+          id="password"
+          name="password"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder=""
+          type="password"
+        />
+        <label
+          className="uikit-absolute uikit-top-px uikit-p-3 uikit-text-sm uikit--z-1 uikit-duration-200 uikit-origin-0 uikit-text-grey-300"
+          htmlFor="password"
+        >
+          Password
+        </label>
+      </div>
+    </div>
+    <div>
+      <div
+        className="uikit-relative uikit-border uikit-rounded-md uikit-border-grey-300 focus-within:uikit-border-blue-400"
+      >
+        <input
+          className="uikit-border-transparent focus:uikit-ring-0 focus:uikit-border-transparent uikit-block uikit-p-3 uikit-w-full uikit-text-sm uikit-text-black uikit-appearance-none focus:uikit-outline-none uikit-bg-transparent uikit-placeholder-grey-400"
+          id="search"
+          name="search"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder=""
+          type="search"
+        />
+        <label
+          className="uikit-absolute uikit-top-px uikit-p-3 uikit-text-sm uikit--z-1 uikit-duration-200 uikit-origin-0 uikit-text-grey-300"
+          htmlFor="search"
+        >
+          Search
+        </label>
+      </div>
+    </div>
+    <div>
+      <div
+        className="uikit-relative uikit-border uikit-rounded-md uikit-border-grey-300 focus-within:uikit-border-blue-400"
+      >
+        <input
+          className="uikit-border-transparent focus:uikit-ring-0 focus:uikit-border-transparent uikit-block uikit-p-3 uikit-w-full uikit-text-sm uikit-text-black uikit-appearance-none focus:uikit-outline-none uikit-bg-transparent uikit-placeholder-grey-400"
+          id="tel"
+          name="tel"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder=""
+          type="tel"
+        />
+        <label
+          className="uikit-absolute uikit-top-px uikit-p-3 uikit-text-sm uikit--z-1 uikit-duration-200 uikit-origin-0 uikit-text-grey-300"
+          htmlFor="tel"
+        >
+          Tel
+        </label>
+      </div>
+    </div>
+    <div>
+      <div
+        className="uikit-relative uikit-border uikit-rounded-md uikit-border-grey-300 focus-within:uikit-border-blue-400"
+      >
+        <input
+          className="uikit-border-transparent focus:uikit-ring-0 focus:uikit-border-transparent uikit-block uikit-p-3 uikit-w-full uikit-text-sm uikit-text-black uikit-appearance-none focus:uikit-outline-none uikit-bg-transparent uikit-placeholder-grey-400"
+          id="text"
+          name="text"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder=""
+          type="text"
+        />
+        <label
+          className="uikit-absolute uikit-top-px uikit-p-3 uikit-text-sm uikit--z-1 uikit-duration-200 uikit-origin-0 uikit-text-grey-300"
+          htmlFor="text"
+        >
+          Text
+        </label>
+      </div>
+    </div>
+    <div>
+      <div
+        className="uikit-relative uikit-border uikit-rounded-md uikit-border-grey-300 focus-within:uikit-border-blue-400"
+      >
+        <input
+          className="uikit-border-transparent focus:uikit-ring-0 focus:uikit-border-transparent uikit-block uikit-p-3 uikit-w-full uikit-text-sm uikit-text-black uikit-appearance-none focus:uikit-outline-none uikit-bg-transparent uikit-placeholder-grey-400"
+          id="url"
+          name="url"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder=""
+          type="url"
+        />
+        <label
+          className="uikit-absolute uikit-top-px uikit-p-3 uikit-text-sm uikit--z-1 uikit-duration-200 uikit-origin-0 uikit-text-grey-300"
+          htmlFor="url"
+        >
+          URL
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Fields/TextField Primary 1`] = `
+<div
+  className="block w-full h-full p-5"
+>
+  <div>
+    <div
+      className="uikit-relative uikit-border uikit-rounded-md uikit-border-grey-300 focus-within:uikit-border-blue-400"
+    >
+      <input
+        className="uikit-border-transparent focus:uikit-ring-0 focus:uikit-border-transparent uikit-block uikit-p-3 uikit-w-full uikit-text-sm uikit-text-black uikit-appearance-none focus:uikit-outline-none uikit-bg-transparent uikit-placeholder-grey-400"
+        defaultValue="email@gmai"
+        id="firstName"
+        name="firstName"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder=""
+      />
+      <label
+        className="uikit-absolute uikit-top-px uikit-p-3 uikit-text-sm uikit--z-1 uikit-duration-200 uikit-origin-0 uikit-transform uikit-scale-75 uikit--translate-y-3 uikit-z-0 uikit-ml-3 uikit-px-2 uikit-py-0 uikit-rounded-sm uikit-bg-white uikit-text-black"
+        htmlFor="firstName"
+      >
+        First name
+      </label>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Fields/TextField Success 1`] = `
+<div
+  className="block w-full h-full p-5"
+>
+  <div>
+    <div
+      className="uikit-relative uikit-border uikit-rounded-md uikit-border-green-100"
+    >
+      <input
+        className="uikit-border-transparent focus:uikit-ring-0 focus:uikit-border-transparent uikit-block uikit-p-3 uikit-w-full uikit-text-sm uikit-text-black uikit-appearance-none focus:uikit-outline-none uikit-bg-transparent uikit-placeholder-grey-400"
+        defaultValue="email@gmail.com"
+        id="firstName"
+        name="firstName"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder=""
+      />
+      <label
+        className="uikit-absolute uikit-top-px uikit-p-3 uikit-text-sm uikit--z-1 uikit-duration-200 uikit-origin-0 uikit-transform uikit-scale-75 uikit--translate-y-3 uikit-z-0 uikit-ml-3 uikit-px-2 uikit-py-0 uikit-rounded-sm uikit-bg-white uikit-text-green-100"
+        htmlFor="firstName"
+      >
+        First name
+      </label>
+    </div>
+    <div
+      className="uikit-text-xs uikit-py-1 uikit-pl-3 uikit-text-green-100"
+    >
+      Success message
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Fields/TextField With Placeholder 1`] = `
+<div
+  className="block w-full h-full p-5"
+>
+  <div>
+    <div
+      className="uikit-relative uikit-border uikit-rounded-md uikit-border-grey-300 focus-within:uikit-border-blue-400"
+    >
+      <input
+        autoFocus={true}
+        className="uikit-border-transparent focus:uikit-ring-0 focus:uikit-border-transparent uikit-block uikit-p-3 uikit-w-full uikit-text-sm uikit-text-black uikit-appearance-none focus:uikit-outline-none uikit-bg-transparent uikit-placeholder-grey-400"
+        id="firstName"
+        name="firstName"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder=""
+      />
+      <label
+        className="uikit-absolute uikit-top-px uikit-p-3 uikit-text-sm uikit--z-1 uikit-duration-200 uikit-origin-0 uikit-text-grey-300"
+        htmlFor="firstName"
+      >
+        First name
+      </label>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots List List Items 1`] = `
+<div
+  className="block w-full h-full p-5"
+>
+  <div>
+    <ul>
+      <li
+        className="uikit-py-4 uikit-border-b last:uikit-border-b-0"
+      >
+        <div
+          className="uikit-flex uikit-justify-between"
+        >
+          <div>
+            English
+          </div>
+          <input
+            className="appearance-none"
+            type="radio"
+          />
+        </div>
+      </li>
+      <li
+        className="uikit-py-4 uikit-border-b last:uikit-border-b-0"
+      >
+        <div
+          className="uikit-flex uikit-justify-between"
+        >
+          <div>
+            Español
+          </div>
+          <input
+            className="appearance-none"
+            type="radio"
+          />
+        </div>
+      </li>
+      <li
+        className="uikit-py-4 uikit-border-b last:uikit-border-b-0"
+      >
+        <div
+          className="uikit-flex uikit-justify-between"
+        >
+          <div>
+            Português
+          </div>
+          <input
+            className="appearance-none"
+            type="radio"
+          />
+        </div>
+      </li>
+      <li
+        className="uikit-py-4 uikit-border-b last:uikit-border-b-0"
+      >
+        <div
+          className="uikit-flex uikit-justify-between"
+        >
+          <div>
+            Français
+          </div>
+          <input
+            className="appearance-none"
+            type="radio"
+          />
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Typography Base Text 1`] = `
+<div
+  className="uikit-bg-blue-100"
+>
+  <span
+    className="uikit-font-normal uikit-text-base uikit-text-blue-400"
+  >
+    Base Text
+  </span>
+</div>
+`;
+
+exports[`Storyshots Typography Headline Text 1`] = `
+<div
+  className="uikit-bg-blue-100"
+>
+  <span
+    className="uikit-font-bold uikit-text-xl uikit-text-blue-400"
+  >
+    Headline Text
+  </span>
+</div>
+`;
+
+exports[`Storyshots Typography Kitchen Sink 1`] = `
+<ul>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-bold uikit-text-5xl uikit-text-black"
+    >
+      The Lazy Fox | 
+      headline
+       - 
+      xxl
+       - 
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-bold uikit-text-5xl uikit-text-black"
+    >
+      The Lazy Fox | 
+      headline
+       - 
+      xxl
+       - 
+      bold
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-semibold uikit-text-5xl uikit-text-black"
+    >
+      The Lazy Fox | 
+      headline
+       - 
+      xxl
+       - 
+      semibold
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-medium uikit-text-5xl uikit-text-black"
+    >
+      The Lazy Fox | 
+      headline
+       - 
+      xxl
+       - 
+      medium
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-normal uikit-text-5xl uikit-text-black"
+    >
+      The Lazy Fox | 
+      headline
+       - 
+      xxl
+       - 
+      normal
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-bold uikit-text-3xl uikit-text-black"
+    >
+      The Lazy Fox | 
+      headline
+       - 
+      xl
+       - 
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-bold uikit-text-3xl uikit-text-black"
+    >
+      The Lazy Fox | 
+      headline
+       - 
+      xl
+       - 
+      bold
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-semibold uikit-text-3xl uikit-text-black"
+    >
+      The Lazy Fox | 
+      headline
+       - 
+      xl
+       - 
+      semibold
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-medium uikit-text-3xl uikit-text-black"
+    >
+      The Lazy Fox | 
+      headline
+       - 
+      xl
+       - 
+      medium
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-normal uikit-text-3xl uikit-text-black"
+    >
+      The Lazy Fox | 
+      headline
+       - 
+      xl
+       - 
+      normal
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-bold uikit-text-2xl uikit-text-black"
+    >
+      The Lazy Fox | 
+      headline
+       - 
+      lg
+       - 
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-bold uikit-text-2xl uikit-text-black"
+    >
+      The Lazy Fox | 
+      headline
+       - 
+      lg
+       - 
+      bold
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-semibold uikit-text-2xl uikit-text-black"
+    >
+      The Lazy Fox | 
+      headline
+       - 
+      lg
+       - 
+      semibold
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-medium uikit-text-2xl uikit-text-black"
+    >
+      The Lazy Fox | 
+      headline
+       - 
+      lg
+       - 
+      medium
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-normal uikit-text-2xl uikit-text-black"
+    >
+      The Lazy Fox | 
+      headline
+       - 
+      lg
+       - 
+      normal
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-bold uikit-text-xl uikit-text-black"
+    >
+      The Lazy Fox | 
+      headline
+       - 
+      md
+       - 
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-bold uikit-text-xl uikit-text-black"
+    >
+      The Lazy Fox | 
+      headline
+       - 
+      md
+       - 
+      bold
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-semibold uikit-text-xl uikit-text-black"
+    >
+      The Lazy Fox | 
+      headline
+       - 
+      md
+       - 
+      semibold
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-medium uikit-text-xl uikit-text-black"
+    >
+      The Lazy Fox | 
+      headline
+       - 
+      md
+       - 
+      medium
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-normal uikit-text-xl uikit-text-black"
+    >
+      The Lazy Fox | 
+      headline
+       - 
+      md
+       - 
+      normal
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-bold uikit-text-lg uikit-text-black"
+    >
+      The Lazy Fox | 
+      headline
+       - 
+      sm
+       - 
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-bold uikit-text-lg uikit-text-black"
+    >
+      The Lazy Fox | 
+      headline
+       - 
+      sm
+       - 
+      bold
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-semibold uikit-text-lg uikit-text-black"
+    >
+      The Lazy Fox | 
+      headline
+       - 
+      sm
+       - 
+      semibold
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-medium uikit-text-lg uikit-text-black"
+    >
+      The Lazy Fox | 
+      headline
+       - 
+      sm
+       - 
+      medium
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-normal uikit-text-lg uikit-text-black"
+    >
+      The Lazy Fox | 
+      headline
+       - 
+      sm
+       - 
+      normal
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-bold uikit-text-base uikit-text-black"
+    >
+      The Lazy Fox | 
+      headline
+       - 
+      xs
+       - 
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-bold uikit-text-base uikit-text-black"
+    >
+      The Lazy Fox | 
+      headline
+       - 
+      xs
+       - 
+      bold
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-semibold uikit-text-base uikit-text-black"
+    >
+      The Lazy Fox | 
+      headline
+       - 
+      xs
+       - 
+      semibold
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-medium uikit-text-base uikit-text-black"
+    >
+      The Lazy Fox | 
+      headline
+       - 
+      xs
+       - 
+      medium
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-normal uikit-text-base uikit-text-black"
+    >
+      The Lazy Fox | 
+      headline
+       - 
+      xs
+       - 
+      normal
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-normal uikit-text-2xl uikit-text-black"
+    >
+      The Lazy Fox | 
+      base
+       - 
+      xxl
+       - 
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-bold uikit-text-2xl uikit-text-black"
+    >
+      The Lazy Fox | 
+      base
+       - 
+      xxl
+       - 
+      bold
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-semibold uikit-text-2xl uikit-text-black"
+    >
+      The Lazy Fox | 
+      base
+       - 
+      xxl
+       - 
+      semibold
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-medium uikit-text-2xl uikit-text-black"
+    >
+      The Lazy Fox | 
+      base
+       - 
+      xxl
+       - 
+      medium
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-normal uikit-text-2xl uikit-text-black"
+    >
+      The Lazy Fox | 
+      base
+       - 
+      xxl
+       - 
+      normal
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-normal uikit-text-xl uikit-text-black"
+    >
+      The Lazy Fox | 
+      base
+       - 
+      xl
+       - 
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-bold uikit-text-xl uikit-text-black"
+    >
+      The Lazy Fox | 
+      base
+       - 
+      xl
+       - 
+      bold
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-semibold uikit-text-xl uikit-text-black"
+    >
+      The Lazy Fox | 
+      base
+       - 
+      xl
+       - 
+      semibold
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-medium uikit-text-xl uikit-text-black"
+    >
+      The Lazy Fox | 
+      base
+       - 
+      xl
+       - 
+      medium
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-normal uikit-text-xl uikit-text-black"
+    >
+      The Lazy Fox | 
+      base
+       - 
+      xl
+       - 
+      normal
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-normal uikit-text-lg uikit-text-black"
+    >
+      The Lazy Fox | 
+      base
+       - 
+      lg
+       - 
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-bold uikit-text-lg uikit-text-black"
+    >
+      The Lazy Fox | 
+      base
+       - 
+      lg
+       - 
+      bold
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-semibold uikit-text-lg uikit-text-black"
+    >
+      The Lazy Fox | 
+      base
+       - 
+      lg
+       - 
+      semibold
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-medium uikit-text-lg uikit-text-black"
+    >
+      The Lazy Fox | 
+      base
+       - 
+      lg
+       - 
+      medium
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-normal uikit-text-lg uikit-text-black"
+    >
+      The Lazy Fox | 
+      base
+       - 
+      lg
+       - 
+      normal
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-normal uikit-text-base uikit-text-black"
+    >
+      The Lazy Fox | 
+      base
+       - 
+      md
+       - 
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-bold uikit-text-base uikit-text-black"
+    >
+      The Lazy Fox | 
+      base
+       - 
+      md
+       - 
+      bold
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-semibold uikit-text-base uikit-text-black"
+    >
+      The Lazy Fox | 
+      base
+       - 
+      md
+       - 
+      semibold
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-medium uikit-text-base uikit-text-black"
+    >
+      The Lazy Fox | 
+      base
+       - 
+      md
+       - 
+      medium
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-normal uikit-text-base uikit-text-black"
+    >
+      The Lazy Fox | 
+      base
+       - 
+      md
+       - 
+      normal
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-normal uikit-text-sm uikit-text-black"
+    >
+      The Lazy Fox | 
+      base
+       - 
+      sm
+       - 
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-bold uikit-text-sm uikit-text-black"
+    >
+      The Lazy Fox | 
+      base
+       - 
+      sm
+       - 
+      bold
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-semibold uikit-text-sm uikit-text-black"
+    >
+      The Lazy Fox | 
+      base
+       - 
+      sm
+       - 
+      semibold
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-medium uikit-text-sm uikit-text-black"
+    >
+      The Lazy Fox | 
+      base
+       - 
+      sm
+       - 
+      medium
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-normal uikit-text-sm uikit-text-black"
+    >
+      The Lazy Fox | 
+      base
+       - 
+      sm
+       - 
+      normal
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-normal uikit-text-xs uikit-text-black"
+    >
+      The Lazy Fox | 
+      base
+       - 
+      xs
+       - 
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-bold uikit-text-xs uikit-text-black"
+    >
+      The Lazy Fox | 
+      base
+       - 
+      xs
+       - 
+      bold
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-semibold uikit-text-xs uikit-text-black"
+    >
+      The Lazy Fox | 
+      base
+       - 
+      xs
+       - 
+      semibold
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-medium uikit-text-xs uikit-text-black"
+    >
+      The Lazy Fox | 
+      base
+       - 
+      xs
+       - 
+      medium
+    </span>
+  </li>
+  <li
+    className="uikit-my-4 uikit-border-b"
+  >
+    <span
+      className="uikit-font-normal uikit-text-xs uikit-text-black"
+    >
+      The Lazy Fox | 
+      base
+       - 
+      xs
+       - 
+      normal
+    </span>
+  </li>
+</ul>
+`;

@@ -1,0 +1,26 @@
+query GetVenueById($id: String!) {
+  getVenueById(merchant: $id) {
+    merchant {
+      id
+      displayName
+      address {
+        street
+        streetAdditional
+        city
+        region
+        postal
+      }
+    }
+    platformId,
+    venueEvents {
+      events {
+        eventInfo {
+          id
+          title
+          imageUrl,
+          dateTime
+        }
+      }
+    }
+  }
+}

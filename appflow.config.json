@@ -1,0 +1,9 @@
+{
+  "apps": [
+    {
+      "appId": "e446763a",
+      "root": "projects/mobile-app",
+      "dependencyInstallCommand": "cd ../.. && npm ci --legacy-peer-deps && npm -w projects/ui run rollup"
+    }
+  ]
+}

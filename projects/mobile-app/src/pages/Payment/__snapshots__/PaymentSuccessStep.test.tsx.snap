@@ -1,0 +1,343 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PaymentSuccessStep should display the total amount with correct currency symbol 1`] = `
+<DocumentFragment>
+  <div
+    class="ion-page bg-profiles safe-area-top"
+  >
+    <div
+      class="relative flex-1 flex flex-col justify-between w-full h-full"
+    >
+      <div
+        class="flex items-center justify-center py-6 flex-shink-0"
+      >
+        <svg
+          aria-label="HUMBL_LOGO"
+          class="inline-block"
+          height="31"
+          width="143"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            fill="#FFF"
+            fill-rule="nonzero"
+          >
+            <path
+              d="M18.418 1v11.484H7.151V1H0v29.794h7.151V18.335h11.267v12.459h7.259V1zM37.594 1v17.118a7.15 7.15 0 001.3 4.55 4.659 4.659 0 003.9 1.517 5.092 5.092 0 003.9-1.517 6.934 6.934 0 001.3-4.55V1h7.151v17.118c.09 2.45-.47 4.88-1.625 7.042a11.376 11.376 0 01-4.442 4.334 13.543 13.543 0 01-6.392 1.406c-2.18.06-4.339-.423-6.284-1.408a10.4 10.4 0 01-4.334-4.334 14.518 14.518 0 01-1.517-7.148V1h7.043zM93.39 1.217v29.577h-7.151V12.376l-6.392 18.527h-6.175L67.28 12.376v18.527h-7.151V1.217h8.776l8.017 20.585 7.907-20.585zM120.475 18.118a6.934 6.934 0 011.625 4.55 7.476 7.476 0 01-2.492 5.959 11.159 11.159 0 01-7.259 2.167H98.482V.998h13.543c2.5-.159 4.98.528 7.042 1.95a6.934 6.934 0 012.492 5.634 6.609 6.609 0 01-1.408 4.442 6.934 6.934 0 01-3.792 2.384 8.884 8.884 0 014.117 2.709m-14.952-4.875h4.767c2.492 0 3.792-1.083 3.792-3.25s-1.3-3.25-3.792-3.25h-4.658l-.109 6.5zm9.209 8.451a2.817 2.817 0 00-1.083-2.492 4.225 4.225 0 00-3.034-.867h-5.092v6.609h5.092c2.709 0 4.117-1.083 4.117-3.25M133.044 25.268h9.642v5.525h-16.793V1h7.151zM140.519 1a2.167 2.167 0 110 4.334 2.167 2.167 0 010-4.334m0 4.117a1.95 1.95 0 10-1.95-1.95 1.95 1.95 0 001.95 1.95m-.758-3.25h.975c.542 0 .867.217.867.758a.65.65 0 01-.65.65l.758 1.192h-.217l-.758-1.192h-.65v1.192h-.325v-2.6zm.217 1.192h.65c.433 0 .65-.108.65-.433s-.217-.542-.65-.542h-.65v.975z"
+            />
+          </g>
+        </svg>
+      </div>
+      <div
+        class="flex flex-col flex-1 overflow-y-auto ease-in-out"
+        id="keyboardAwareView"
+      >
+        <div
+          class="px-6 flex-grow"
+        >
+          <div
+            class="flex flex-col pt-14 h-full justify-between"
+          >
+            <div
+              class=" flex items-center flex-col relative w-full"
+            >
+              <div
+                class="z-50 border-white p-12 rounded-full opacity-95"
+                data-testid="checkmark"
+                style="top: 0px; width: 219px; height: 219px; border-width: 7px;"
+              >
+                <svg
+                  class="w-full h-full"
+                  fill="none"
+                  height="87"
+                  viewBox="0 0 103 87"
+                  width="103"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M29.668 86.514h-.053a.608.608 0 01-.452-.194l-.038-.042L.773 58.28a.52.52 0 01-.136-.386l.009-.155-.012-.154a.62.62 0 01.176-.482l9.197-9.099.03-.033a.682.682 0 01.972-.032l.096.096 18.63 18.17L91.948.702a.688.688 0 01.978-.032l.082.084 9.21 9.113a.58.58 0 01.149.44l-.012.155.009.155a.525.525 0 01-.154.4L30.255 86.292a.707.707 0 01-.512.224l-.075-.002z"
+                    fill="#fff"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              class="flex-1 flex flex-col flex-grow justify-around text-center text-white pb-6"
+            >
+              <div>
+                <h1
+                  class="text-3xl"
+                >
+                  payment-page.action.payment-success
+                </h1>
+                <div
+                  class="text-base text-white-faded"
+                >
+                  payment-page.action.at
+                </div>
+              </div>
+              <div>
+                <h1
+                  class="text-2xl"
+                >
+                  Test
+                </h1>
+                <h1
+                  class="text-3xl"
+                >
+                  $100.00 USD
+                </h1>
+              </div>
+            </div>
+            <div
+              class="relative bottom-0 flex py-4 flex-col"
+            >
+              <button
+                class="text-white select-none outline-none flex justify-center items-center justify-center font-medium w-full text-white py-2 px-4 bg-blue-dark rounded-md active:bg-blue-light active:shadow-button-active active:text-blue-dark transition-all py-3 px-6 text-md sm:leading-none mb-2"
+                style="min-width: 160px;"
+                type="button"
+              >
+                payment-page.action.write-a-review
+              </button>
+              <button
+                class="text-white select-none outline-none flex justify-center items-center py-3 px-6 text-md sm:leading-none rounded-md font-bold w-full border-blue-dark text-blue-dark py-2 px-4 border-2 border-solid"
+                type="button"
+              >
+                payment-page.action.go-back-home
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`PaymentSuccessStep should display the total amount with correct currency symbol 2`] = `
+<DocumentFragment>
+  <div
+    class="ion-page bg-profiles safe-area-top"
+  >
+    <div
+      class="relative flex-1 flex flex-col justify-between w-full h-full"
+    >
+      <div
+        class="flex items-center justify-center py-6 flex-shink-0"
+      >
+        <svg
+          aria-label="HUMBL_LOGO"
+          class="inline-block"
+          height="31"
+          width="143"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            fill="#FFF"
+            fill-rule="nonzero"
+          >
+            <path
+              d="M18.418 1v11.484H7.151V1H0v29.794h7.151V18.335h11.267v12.459h7.259V1zM37.594 1v17.118a7.15 7.15 0 001.3 4.55 4.659 4.659 0 003.9 1.517 5.092 5.092 0 003.9-1.517 6.934 6.934 0 001.3-4.55V1h7.151v17.118c.09 2.45-.47 4.88-1.625 7.042a11.376 11.376 0 01-4.442 4.334 13.543 13.543 0 01-6.392 1.406c-2.18.06-4.339-.423-6.284-1.408a10.4 10.4 0 01-4.334-4.334 14.518 14.518 0 01-1.517-7.148V1h7.043zM93.39 1.217v29.577h-7.151V12.376l-6.392 18.527h-6.175L67.28 12.376v18.527h-7.151V1.217h8.776l8.017 20.585 7.907-20.585zM120.475 18.118a6.934 6.934 0 011.625 4.55 7.476 7.476 0 01-2.492 5.959 11.159 11.159 0 01-7.259 2.167H98.482V.998h13.543c2.5-.159 4.98.528 7.042 1.95a6.934 6.934 0 012.492 5.634 6.609 6.609 0 01-1.408 4.442 6.934 6.934 0 01-3.792 2.384 8.884 8.884 0 014.117 2.709m-14.952-4.875h4.767c2.492 0 3.792-1.083 3.792-3.25s-1.3-3.25-3.792-3.25h-4.658l-.109 6.5zm9.209 8.451a2.817 2.817 0 00-1.083-2.492 4.225 4.225 0 00-3.034-.867h-5.092v6.609h5.092c2.709 0 4.117-1.083 4.117-3.25M133.044 25.268h9.642v5.525h-16.793V1h7.151zM140.519 1a2.167 2.167 0 110 4.334 2.167 2.167 0 010-4.334m0 4.117a1.95 1.95 0 10-1.95-1.95 1.95 1.95 0 001.95 1.95m-.758-3.25h.975c.542 0 .867.217.867.758a.65.65 0 01-.65.65l.758 1.192h-.217l-.758-1.192h-.65v1.192h-.325v-2.6zm.217 1.192h.65c.433 0 .65-.108.65-.433s-.217-.542-.65-.542h-.65v.975z"
+            />
+          </g>
+        </svg>
+      </div>
+      <div
+        class="flex flex-col flex-1 overflow-y-auto ease-in-out"
+        id="keyboardAwareView"
+      >
+        <div
+          class="px-6 flex-grow"
+        >
+          <div
+            class="flex flex-col pt-14 h-full justify-between"
+          >
+            <div
+              class=" flex items-center flex-col relative w-full"
+            >
+              <div
+                class="z-50 border-white p-12 rounded-full opacity-95"
+                data-testid="checkmark"
+                style="top: 0px; width: 219px; height: 219px; border-width: 7px;"
+              >
+                <svg
+                  class="w-full h-full"
+                  fill="none"
+                  height="87"
+                  viewBox="0 0 103 87"
+                  width="103"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M29.668 86.514h-.053a.608.608 0 01-.452-.194l-.038-.042L.773 58.28a.52.52 0 01-.136-.386l.009-.155-.012-.154a.62.62 0 01.176-.482l9.197-9.099.03-.033a.682.682 0 01.972-.032l.096.096 18.63 18.17L91.948.702a.688.688 0 01.978-.032l.082.084 9.21 9.113a.58.58 0 01.149.44l-.012.155.009.155a.525.525 0 01-.154.4L30.255 86.292a.707.707 0 01-.512.224l-.075-.002z"
+                    fill="#fff"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              class="flex-1 flex flex-col flex-grow justify-around text-center text-white pb-6"
+            >
+              <div>
+                <h1
+                  class="text-3xl"
+                >
+                  payment-page.action.payment-success
+                </h1>
+                <div
+                  class="text-base text-white-faded"
+                >
+                  payment-page.action.at
+                </div>
+              </div>
+              <div>
+                <h1
+                  class="text-2xl"
+                >
+                  Test
+                </h1>
+                <h1
+                  class="text-3xl"
+                >
+                  $100.00 MXN
+                </h1>
+              </div>
+            </div>
+            <div
+              class="relative bottom-0 flex py-4 flex-col"
+            >
+              <button
+                class="text-white select-none outline-none flex justify-center items-center justify-center font-medium w-full text-white py-2 px-4 bg-blue-dark rounded-md active:bg-blue-light active:shadow-button-active active:text-blue-dark transition-all py-3 px-6 text-md sm:leading-none mb-2"
+                style="min-width: 160px;"
+                type="button"
+              >
+                payment-page.action.write-a-review
+              </button>
+              <button
+                class="text-white select-none outline-none flex justify-center items-center py-3 px-6 text-md sm:leading-none rounded-md font-bold w-full border-blue-dark text-blue-dark py-2 px-4 border-2 border-solid"
+                type="button"
+              >
+                payment-page.action.go-back-home
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`PaymentSuccessStep should display the total amount with correct currency symbol 3`] = `
+<DocumentFragment>
+  <div
+    class="ion-page bg-profiles safe-area-top"
+  >
+    <div
+      class="relative flex-1 flex flex-col justify-between w-full h-full"
+    >
+      <div
+        class="flex items-center justify-center py-6 flex-shink-0"
+      >
+        <svg
+          aria-label="HUMBL_LOGO"
+          class="inline-block"
+          height="31"
+          width="143"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            fill="#FFF"
+            fill-rule="nonzero"
+          >
+            <path
+              d="M18.418 1v11.484H7.151V1H0v29.794h7.151V18.335h11.267v12.459h7.259V1zM37.594 1v17.118a7.15 7.15 0 001.3 4.55 4.659 4.659 0 003.9 1.517 5.092 5.092 0 003.9-1.517 6.934 6.934 0 001.3-4.55V1h7.151v17.118c.09 2.45-.47 4.88-1.625 7.042a11.376 11.376 0 01-4.442 4.334 13.543 13.543 0 01-6.392 1.406c-2.18.06-4.339-.423-6.284-1.408a10.4 10.4 0 01-4.334-4.334 14.518 14.518 0 01-1.517-7.148V1h7.043zM93.39 1.217v29.577h-7.151V12.376l-6.392 18.527h-6.175L67.28 12.376v18.527h-7.151V1.217h8.776l8.017 20.585 7.907-20.585zM120.475 18.118a6.934 6.934 0 011.625 4.55 7.476 7.476 0 01-2.492 5.959 11.159 11.159 0 01-7.259 2.167H98.482V.998h13.543c2.5-.159 4.98.528 7.042 1.95a6.934 6.934 0 012.492 5.634 6.609 6.609 0 01-1.408 4.442 6.934 6.934 0 01-3.792 2.384 8.884 8.884 0 014.117 2.709m-14.952-4.875h4.767c2.492 0 3.792-1.083 3.792-3.25s-1.3-3.25-3.792-3.25h-4.658l-.109 6.5zm9.209 8.451a2.817 2.817 0 00-1.083-2.492 4.225 4.225 0 00-3.034-.867h-5.092v6.609h5.092c2.709 0 4.117-1.083 4.117-3.25M133.044 25.268h9.642v5.525h-16.793V1h7.151zM140.519 1a2.167 2.167 0 110 4.334 2.167 2.167 0 010-4.334m0 4.117a1.95 1.95 0 10-1.95-1.95 1.95 1.95 0 001.95 1.95m-.758-3.25h.975c.542 0 .867.217.867.758a.65.65 0 01-.65.65l.758 1.192h-.217l-.758-1.192h-.65v1.192h-.325v-2.6zm.217 1.192h.65c.433 0 .65-.108.65-.433s-.217-.542-.65-.542h-.65v.975z"
+            />
+          </g>
+        </svg>
+      </div>
+      <div
+        class="flex flex-col flex-1 overflow-y-auto ease-in-out"
+        id="keyboardAwareView"
+      >
+        <div
+          class="px-6 flex-grow"
+        >
+          <div
+            class="flex flex-col pt-14 h-full justify-between"
+          >
+            <div
+              class=" flex items-center flex-col relative w-full"
+            >
+              <div
+                class="z-50 border-white p-12 rounded-full opacity-95"
+                data-testid="checkmark"
+                style="top: 0px; width: 219px; height: 219px; border-width: 7px;"
+              >
+                <svg
+                  class="w-full h-full"
+                  fill="none"
+                  height="87"
+                  viewBox="0 0 103 87"
+                  width="103"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M29.668 86.514h-.053a.608.608 0 01-.452-.194l-.038-.042L.773 58.28a.52.52 0 01-.136-.386l.009-.155-.012-.154a.62.62 0 01.176-.482l9.197-9.099.03-.033a.682.682 0 01.972-.032l.096.096 18.63 18.17L91.948.702a.688.688 0 01.978-.032l.082.084 9.21 9.113a.58.58 0 01.149.44l-.012.155.009.155a.525.525 0 01-.154.4L30.255 86.292a.707.707 0 01-.512.224l-.075-.002z"
+                    fill="#fff"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              class="flex-1 flex flex-col flex-grow justify-around text-center text-white pb-6"
+            >
+              <div>
+                <h1
+                  class="text-3xl"
+                >
+                  payment-page.action.payment-success
+                </h1>
+                <div
+                  class="text-base text-white-faded"
+                >
+                  payment-page.action.at
+                </div>
+              </div>
+              <div>
+                <h1
+                  class="text-2xl"
+                >
+                  Test
+                </h1>
+                <h1
+                  class="text-3xl"
+                >
+                  $100.00 CAD
+                </h1>
+              </div>
+            </div>
+            <div
+              class="relative bottom-0 flex py-4 flex-col"
+            >
+              <button
+                class="text-white select-none outline-none flex justify-center items-center justify-center font-medium w-full text-white py-2 px-4 bg-blue-dark rounded-md active:bg-blue-light active:shadow-button-active active:text-blue-dark transition-all py-3 px-6 text-md sm:leading-none mb-2"
+                style="min-width: 160px;"
+                type="button"
+              >
+                payment-page.action.write-a-review
+              </button>
+              <button
+                class="text-white select-none outline-none flex justify-center items-center py-3 px-6 text-md sm:leading-none rounded-md font-bold w-full border-blue-dark text-blue-dark py-2 px-4 border-2 border-solid"
+                type="button"
+              >
+                payment-page.action.go-back-home
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

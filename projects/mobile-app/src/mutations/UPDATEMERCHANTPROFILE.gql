@@ -1,0 +1,29 @@
+mutation UpdateMerchantProfile(
+  $phoneNumber: String
+  $displayName: String
+  $currency: String
+  $location: AddressInput
+  $merchantType: String
+) {
+  updateMerchantProfile(
+    phoneNumber: $phoneNumber
+    displayName: $displayName
+    currency: $currency
+    location: $location
+    merchantType: $merchantType
+  ) {
+    id
+    merchantType
+    displayName
+    address {
+      street
+      streetAdditional
+      city
+      region
+      postal
+    }
+    currency
+    countryCode
+    acceptsPayments
+  }
+}

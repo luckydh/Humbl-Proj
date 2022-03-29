@@ -1,0 +1,12 @@
+query GetCryptoMarketList($interestOnly: Boolean, $type: String) {
+  getMarketList(interestOnly: $interestOnly, type: $type) {
+    assets {
+      name
+      code
+      price
+      currency
+      logoImage
+      percentChangeOverPeriod
+    }
+  }
+}

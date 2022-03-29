@@ -1,0 +1,11 @@
+query GetCryptoBuySuccessData($orderId: String, $assetCode: String) {
+  asset: assetMetrics(assetName: $assetCode) {
+    name
+    logoImage
+  }
+  order: getFullOrder(orderId: $orderId, assetName: $assetCode) {
+    purchaseAmount
+    destinationAmount
+    sourceCurrency
+  }
+}

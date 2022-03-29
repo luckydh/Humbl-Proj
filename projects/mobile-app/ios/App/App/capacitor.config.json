@@ -1,0 +1,14 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "humbl-consumer",
+	"bundledWebRuntime": false,
+	"webDir": "build",
+	"plugins": {
+		"SplashScreen": {
+			"launchShowDuration": 6000,
+			"launchAutoHide": true,
+			"showSpinner": false
+		}
+	},
+	"cordova": {}
+}

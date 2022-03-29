@@ -1,0 +1,19 @@
+mutation CreateMerchantTransaction(
+  $tip: Int!
+  $amount: Int!
+  $subtotal: Int!
+  $currency: String!
+  $destinationAccountTag: String!
+  $methodUsed: String!
+) {
+  createChargeCardTransaction(
+    tip: $tip
+    amount: $amount
+    subtotal: $subtotal
+    currency: $currency
+    destinationAccountTag: $destinationAccountTag
+    methodUsed: $methodUsed
+  ) {
+    id
+  }
+}

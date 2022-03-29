@@ -1,0 +1,33 @@
+mutation EditCreditCard(
+  $id: String!
+  $cardBrand: String
+  $tokenizedCardNum: String
+  $tokenizedCVC: String
+  $nameOnCard: String
+  $expirationDate: String
+  $lastFour: String
+  $street: String
+  $streetAdditional: String
+  $city: String
+  $postal: String
+  $region: String
+  $country: String
+) {
+  editPaymentMethod(
+    id: $id
+    cardBrand: $cardBrand
+    tokenizedCardNum: $tokenizedCardNum
+    tokenizedCVC: $tokenizedCVC
+    nameOnCard: $nameOnCard
+    expirationDate: $expirationDate
+    lastFour: $lastFour
+    street: $street
+    streetAdditional: $streetAdditional
+    city: $city
+    postal: $postal
+    region: $region
+    country: $country
+  ) {
+    id
+  }
+}

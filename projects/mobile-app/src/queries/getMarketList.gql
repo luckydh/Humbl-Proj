@@ -1,0 +1,12 @@
+query getMarketList($period: MarketPeriodInput, $limit: Int) {
+  getMarketList(period: $period, limit: $limit) {
+    assets {
+      currency
+      name
+      code
+      logoImage
+      price
+      percentChangeOverPeriod
+    }
+  }
+}

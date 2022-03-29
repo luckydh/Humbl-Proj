@@ -1,0 +1,39 @@
+mutation AddBankingInfo(
+    $phoneNumber: String
+    $dob: BirthdayInput
+    $firstName: String
+    $lastName: String
+    $address: AddressInput
+    $accountType: String
+    $bankName: String
+    $bankAccountNickname: String
+    $accountNumber: String
+    $routingNumber: String
+    $clabe: String
+    $bsbNumber: String
+) {
+    addBankingInfo(
+        phoneNumber: $phoneNumber
+        dob: $dob
+        firstName: $firstName
+        lastName: $lastName
+        address: $address
+        accountType: $accountType
+        bankName: $bankName
+        bankAccountNickname: $bankAccountNickname
+        accountNumber: $accountNumber
+        routingNumber: $routingNumber
+        clabe: $clabe
+        bsbNumber: $bsbNumber
+    ){
+        id
+        lastFour
+        nickname
+        country
+        accountHolder
+        account {
+            id
+            userName
+        }
+    }
+}

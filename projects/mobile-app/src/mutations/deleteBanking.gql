@@ -1,0 +1,3 @@
+mutation deleteBank($bankId: String) {
+    deleteBank(bankId: $bankId)
+}

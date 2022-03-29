@@ -1,0 +1,141 @@
+.check-list-item {
+
+  &-error-border {
+    border: 1px solid #AF3E3E;
+  }
+
+  &-white-background {
+    background-color: rgba(255, 255, 255, 0.2)
+  }
+
+  &-pad-lock-icon {
+    width: 100%;
+    height: 100%;
+  }
+
+  &-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    color: white;
+    padding: 1px;
+  }
+
+  &-timeline {
+    position: relative;
+
+    &-error-icon {
+      position: absolute;
+      display: block;
+      width: 27px;
+      height: 27px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+
+    &-step:after {
+      position: absolute;
+      content: '';
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      border: 1px solid white;
+      background: white;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    &-top:before {
+      display: block;
+      position: absolute;
+      content: '';
+      width: 1px;
+      height: 29px;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 0;
+      background: white;
+
+    }
+
+    &-bottom:before {
+      display: block;
+      position: absolute;
+      content: '';
+      width: 1px;
+      height: 29px;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 0;
+      background: white;
+    }
+
+    &-warning {
+
+
+    }
+
+    &-current-step {
+
+      &-top:after {
+        display: block;
+        position: absolute;
+        content: '';
+        width: 1px;
+        height: 19px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 0;
+        background: white;
+      }
+
+      &-bottom:after {
+        display: block;
+        position: absolute;
+        content: '';
+        width: 1px;
+        height: 19px;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 0;
+        background: white;
+      }
+
+      &:before {
+        position: absolute;
+        content: '';
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 1px solid white;
+        background: #21ace3;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      &:after {
+        position: absolute;
+        content: '';
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: 1px solid white;
+        background: white;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+}
+
+
+
+
+

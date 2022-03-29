@@ -1,0 +1,8 @@
+query GETASSETMETRIC($assetName: String) {
+  getAssetMetrics( assetName: $assetName) {
+      name,
+      code,
+      logoImage,
+      price
+  }
+}

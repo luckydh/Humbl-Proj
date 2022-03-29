@@ -1,0 +1,60 @@
+.signup-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+
+  .humbl-logo {
+    margin-top: 16px;
+    height: 30px;
+  }
+
+  .signup-content {
+    width: 90%;
+    margin: auto;
+    .form-input:not(:first-child), button {
+      margin: 16px auto 0;
+    }
+  }
+
+  .error {
+    width: calc(100% - 8px);
+    margin: 4px auto;
+    color: red;
+  }
+
+  .account-options {
+    margin-bottom: 48px;
+    p {
+      text-align: center;
+      margin: 8px 0;
+      color: white;
+    }
+    a {
+      text-decoration: none;
+      color: var(--ion-color-danager);
+    }
+  }
+
+  .btn-signup {
+    margin-top: 20px;
+    ion-button {
+      margin: auto;
+      font-size: 20px;
+      height: 40px;
+    }
+  }
+}
+
+.inputcontainer {
+  font-size: 20px;
+  font-weight: bold;
+  width: 95%;
+  margin: auto;
+  padding: 4px 0;
+  --background: white;
+  border-radius: 12px;
+  margin-top: 20px;
+}

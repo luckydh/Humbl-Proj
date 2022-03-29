@@ -1,0 +1,24 @@
+mutation createCompleteTransaction(
+  $tip: Int!
+  $amount: Int!
+  $subtotal: Int!
+  $currency: String!
+  $destinationAccountTag: String!
+  $methodUsed: String!
+) {
+  createCompleteTransaction(
+    tip: $tip
+    amount: $amount
+    subtotal: $subtotal
+    currency: $currency
+    destinationAccountTag: $destinationAccountTag
+    methodUsed: $methodUsed
+  ) {
+     transaction{
+      id,
+    	amount,
+    	transactionType
+    },
+    intentSecret
+  }
+}

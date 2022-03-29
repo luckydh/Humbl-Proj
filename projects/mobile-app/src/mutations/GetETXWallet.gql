@@ -1,0 +1,15 @@
+mutation getETXWallet($notes: String) {
+  getETXBlocksWallet(notes: $notes) {
+    id
+    balances {
+      totalBalances {
+        name
+        balance
+      }
+      availableBalances {
+        name
+        balance
+      }
+    }
+  }
+}

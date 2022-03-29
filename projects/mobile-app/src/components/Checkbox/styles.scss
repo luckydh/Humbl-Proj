@@ -1,0 +1,14 @@
+ion-checkbox {
+  --background: transparent;
+  --background-checked: rgb(var(--blue-dark));
+  --border-color: white;
+  --border-color-checked: white;
+}
+
+.ion-checkbox-error {
+  --border-color: red;
+}
+
+ion-checkbox::part(container) {
+  padding: 10%;
+}

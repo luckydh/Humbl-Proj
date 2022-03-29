@@ -1,0 +1,33 @@
+@import '~leaflet/dist/leaflet.css';
+
+#recenter-button {
+  position: absolute;
+  top: .5rem;
+  right: .5rem;
+  z-index: 401;
+  -webkit-transform:translateZ(10px);
+  -moz-transform: translateZ(10px);
+  transform: translateZ(10px);
+}
+
+#query-button {
+  position: absolute;
+  top: .5rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 401;
+  -webkit-transform:translateZ(10px);
+  -moz-transform: translateZ(10px);
+  transform: translateZ(10px);
+}
+
+.map-icon {
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg);
+  background-color: #22ade4;
+}
+
+.map-image {
+  transform: rotate(45deg);
+}

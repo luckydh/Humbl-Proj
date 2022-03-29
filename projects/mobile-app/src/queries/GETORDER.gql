@@ -1,0 +1,47 @@
+query GetOrder($orderId: String!, $merchantId: String!) {
+  paymentMethods {
+    id
+    name
+    lastFour
+    type
+    expirationDate
+    cardBrand {
+      id
+      image
+      display
+    }
+  }
+  getOrder(orderId: $orderId, merchantId: $merchantId) {
+    orderId
+    eventId
+    orderTotal {
+      value
+      display
+    }
+    orderFees {
+      value
+      display
+    }
+    orderSubtotal {
+      value
+      display
+    }
+    paymentEntered
+    timeRemainingInSecs
+    tickets {
+      id
+      type
+      subtotalPrice {
+        value
+        display
+        major
+      }
+      price {
+        value
+        display
+        major
+      }
+      quantity
+    }
+  }
+}

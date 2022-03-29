@@ -1,0 +1,67 @@
+$dark-blue-2: #334B64;
+$dark-blue-3: #283F56;
+$dark-blue-4: #12769E;
+$blue: #21ACE3;
+$light-blue-1: #21ACE3BF;
+$dark-blue-1: #3B5B7B;
+$white-1: #E4F8FF;
+$light-blue-2: #A1DFF6;
+$light-grey: #6B7E90;
+
+
+.background-light-blue-2 {
+  background: $light-blue-2;
+}
+
+.background-white-1 {
+  background: $white-1;
+}
+
+.background-dark-blue-1 {
+  background: $dark-blue-1;
+}
+
+.background-light-blue-1 {
+  background: $light-blue-1;
+}
+
+.background-dark-blue-2 {
+  background: $dark-blue-2;
+}
+
+.background-dark-blue-3 {
+  background: $dark-blue-3;
+}
+
+.background-dark-blue-4 {
+  background: $dark-blue-4;
+}
+
+.background-blue {
+  background: $blue;
+}
+
+.text-light-blue-1 {
+  color: $light-blue-1
+}
+
+.text-dark-blue-2 {
+  color: $dark-blue-2;
+}
+
+.text-dark-blue-3 {
+  color: $dark-blue-3;
+}
+
+
+.text-dark-blue-1 {
+  color: $dark-blue-1;
+}
+
+.text-light-grey {
+  color: $light-grey;
+}
+
+.alert-css {
+  --ion-text-color: black
+}

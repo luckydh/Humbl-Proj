@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react",
+    "baseUrl": "./src"
+  },
+  "references": [
+    {
+      "path": "../ui"
+    }
+  ],
+  "include": [
+    "src",
+    "package.json",
+    "tsconfig.json",
+    ".eslintrc",
+    "./node_modules/@types",
+    "./types/canvas-size.d.ts",
+    "./types/phoneInput.d.ts"
+  ],
+  "exclude": ["src/generated", "node_modules", "dist"]
+}

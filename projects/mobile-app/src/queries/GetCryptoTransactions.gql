@@ -1,0 +1,34 @@
+query GetRecentCryptoTransactions($seeAll: Boolean, $transactionCategory: String, $asset: String) {
+  getRecentTransactions(seeAll: $seeAll, transactionCategory: $transactionCategory, asset: $asset) {
+    asset
+    amount
+    date
+    coin {
+      name
+      logoImage
+      code
+    }
+    category
+    fiatCurrency
+    status
+    fiatAmount {
+      display
+      major
+    }
+    assetName
+    swappedAsset
+    swappedAssetName
+    receiver {
+      id
+      userName
+      displayName
+      image
+    }
+    sender {
+      id
+      userName
+      displayName
+      image
+    }
+  }
+}

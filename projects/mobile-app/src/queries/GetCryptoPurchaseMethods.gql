@@ -1,0 +1,39 @@
+query GetCryptoPurchaseMethods($purchaseAmount: String, $purchaseCurrency: String) {
+  assets: myAssetsEnoughToPurchase(purchaseAmount: $purchaseAmount, purchaseCurrency: $purchaseCurrency) {
+    name
+    code
+    logoImage
+    amount
+    fiatAmount {
+      value
+      major
+      display
+    }
+  }
+  cards: paymentMethods {
+    id
+    name
+    lastFour
+    region
+    type
+    expirationDate
+    cardBrand {
+      id
+      image
+      display
+    }
+  }
+  banks: paymentMethods(type: ACH) {
+    id
+    name
+    type
+    lastFour
+    region
+    status
+    cardBrand {
+      id
+      image
+      display
+    }
+  }
+}

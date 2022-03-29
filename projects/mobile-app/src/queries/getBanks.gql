@@ -1,0 +1,13 @@
+query getBanks{
+    getBanks{
+        id,
+        lastFour,
+        nickname,
+        country,
+        accountHolder,
+        account{
+            userName,
+            id
+        }
+    }
+}

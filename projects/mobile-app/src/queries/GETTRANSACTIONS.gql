@@ -1,0 +1,31 @@
+query GetTransactions($limit: Int, $page: Int) {
+  getTransactions(limit: $limit, page: $page) {
+    pageInfo {
+      currentPage
+      totalPages
+      totalCount
+      perPage
+    }
+    nodes {
+      origin{
+        userName
+      }
+      id
+      amount
+      currency
+      transactionType
+      dateOfTransaction
+      total {
+        major
+        value
+        display
+      }
+      destination {
+        id
+        userName
+        displayName
+        image
+      }
+    }
+  }
+}

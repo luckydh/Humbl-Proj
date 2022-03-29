@@ -1,0 +1,5 @@
+mutation startETXTransferQuote($etxDistributionuuid: String, $maxOption: Boolean) {
+  startETXTransferQuote(etxDistributionuuid: $etxDistributionuuid, maxOption: $maxOption) {
+    transactionId
+  }
+}

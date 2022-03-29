@@ -1,0 +1,11 @@
+mutation ConfirmACHQuote($quoteId: String) {
+  confirmACHQuote(quoteId: $quoteId) {
+    sourceAmount
+    sourceCurrencyCode
+    destinationAmount
+    email
+    transactionId
+    fiatAmount
+    fiatCurrencyCode
+  }
+}

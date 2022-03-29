@@ -1,0 +1,32 @@
+query GetTransaction($id: String!) {
+  transaction(transactionId: $id) {
+    id
+    sender {
+      id
+      image
+      userName
+      displayName
+    }
+    receiver {
+      id
+      userName
+      displayName
+      image
+    }
+    dateOfTransaction
+    amount
+    tipAmount {
+      major
+      value
+      display
+    }
+    total {
+      major
+      value
+      display
+    }
+    currency
+    txDetail
+    isRefunded
+  }
+}

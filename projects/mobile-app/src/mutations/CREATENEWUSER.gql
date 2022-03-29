@@ -1,0 +1,21 @@
+mutation CreateNewUser(
+  $email: String
+  $password: String
+  $firstName: String
+  $lastName: String
+  $userName: String
+  $city: String
+  $country: String
+  $phone: String
+) {
+  createNewUser(
+    email: $email
+    password: $password
+    firstName: $firstName
+    lastName: $lastName
+    userName: $userName
+    city: $city
+    country: $country
+    phone: $phone
+  )
+}

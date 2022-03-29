@@ -1,0 +1,6 @@
+query GetMyAssetAddress($asset: String) {
+  myAssetAddress(asset: $asset) {
+    code
+    image
+  }
+}

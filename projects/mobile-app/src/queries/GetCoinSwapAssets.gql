@@ -1,0 +1,18 @@
+query GetCoinSwapAssets($quoteId: String, $sourceAssetCode: String, $destinationAssetCode: String) {
+  sourceAsset: assetMetrics(assetName: $sourceAssetCode) {
+    price
+  }
+  destinationAsset: assetMetrics(assetName: $destinationAssetCode) {
+    price
+  }
+  quote: getQuote(quoteId: $quoteId) {
+    sourceCurrency
+    sourceCurrencyCode
+    sourceAmount
+    destinationCurrency
+    destinationCurrencyCode
+    destinationAmount
+    sourceFee
+    fiatCurrencyCode
+  }
+}

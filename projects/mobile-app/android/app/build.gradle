@@ -1,0 +1,61 @@
+apply plugin: 'com.android.application'
+
+def sysBuildNumber = System.getenv("CI_BUILD_NUMBER")
+def sysBuildNumberMinor = System.getenv("REACT_APP_VERSION_MINOR")
+def sysBuildNumberMajor = System.getenv("REACT_APP_VERSION_MAJOR")
+def sysBuildQATest = System.getenv("REACT_APP_QA_TESTING")
+
+
+def Properties properties = new Properties()
+if (project.rootProject.file('local.properties').exists()) {
+    properties.load(new FileInputStream(project.rootProject.file('local.properties')))
+    sysBuildNumber = properties['CI_BUILD_NUMBER'].toString()
+    sysBuildNumberMinor = properties['REACT_APP_VERSION_MINOR'].toString()
+    sysBuildNumberMajor = properties['REACT_APP_VERSION_MAJOR'].toString()
+}
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    defaultConfig {
+        applicationId "com.humbllite"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode Integer.valueOf(sysBuildNumber) ?: 1
+        versionName sysBuildNumberMajor + "." + sysBuildNumberMinor + "." + sysBuildNumber ?: 'test'
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            debuggable sysBuildQATest ? true : false 
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+repositories {
+    flatDir{
+        dirs '../capacitor-cordova-android-plugins/src/main/libs', 'libs'
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation "androidx.appcompat:appcompat:$androidxAppCompatVersion"
+    implementation project(':capacitor-android')
+    testImplementation "junit:junit:$junitVersion"
+    androidTestImplementation "androidx.test.ext:junit:$androidxJunitVersion"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$androidxEspressoCoreVersion"
+    implementation project(':capacitor-cordova-android-plugins')
+}
+
+apply from: 'capacitor.build.gradle'
+
+try {
+    def servicesJSON = file('google-services.json')
+    if (servicesJSON.text) {
+        apply plugin: 'com.google.gms.google-services'
+    }
+} catch(Exception e) {
+    logger.warn("google-services.json not found, google-services plugin not applied. Push Notifications won't work")
+}

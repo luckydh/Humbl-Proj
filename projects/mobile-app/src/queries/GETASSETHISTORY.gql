@@ -1,0 +1,17 @@
+query GETASSETHISTORY($assetName: String, $period: MarketPeriodInput) {
+  getAssetHistory(period: $period, assetName: $assetName) {
+    asset {
+      name
+      code
+    }
+    minPrice
+    maxPrice
+    firstValidPointIndex
+    start
+    end
+    history {
+      time
+      price
+    }
+  }
+}

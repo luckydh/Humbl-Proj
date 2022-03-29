@@ -1,0 +1,23 @@
+query GetACHQuote($quoteId: String, $destinationAssetCode: String) {
+  destinationAsset: assetMetrics(assetName: $destinationAssetCode) {
+    price
+  }
+  quote: getACHQuote(quoteId: $quoteId) {
+    paymentName
+    sourceCurrency
+    sourceCurrencyCode
+    sourceAmount
+    destinationCurrency
+    destinationCurrencyCode
+    destinationAmount
+    sourceFee
+    exchangeRate
+    notes
+    logoImage
+    fiatFees
+    fiatAmount
+    fiatCurrencyCode
+    destination
+    isInternal
+  }
+}

@@ -1,0 +1,13 @@
+query getEtxProduct {
+  getEtxProduct {
+    name
+    etxKey
+    logoImage
+    distribution {
+      name
+      code
+      image
+      percentage
+    }
+  }
+}

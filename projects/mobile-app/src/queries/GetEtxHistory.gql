@@ -1,0 +1,7 @@
+query GetEtxHistory {
+  getEtxHistory {
+    Month
+    sixMonth
+    twelveMonth
+  }
+}

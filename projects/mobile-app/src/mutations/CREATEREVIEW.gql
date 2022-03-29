@@ -1,0 +1,15 @@
+mutation CreateReview(
+  $rating: Int!
+  $details: String!
+  $merchantId: String!
+  $relatedTransaction: String!
+) {
+  createReview(
+    rating: $rating
+    details: $details
+    merchantId: $merchantId
+    relatedTransaction: $relatedTransaction
+  ) {
+    id
+  }
+}

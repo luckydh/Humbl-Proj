@@ -1,0 +1,11 @@
+query GetMyMerchantBusinessDetails {
+  myMerchantProfile {
+    acceptsPayments
+    id
+    businessDetails {
+      type
+      hasBanking
+      hasOnboarded
+    }
+  }
+}

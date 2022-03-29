@@ -1,0 +1,29 @@
+mutation updateKYCInfo(
+  $legalFirstName: String!
+  $legalLastName: String!
+  $address: AddressInput!
+  $individualSsn: String!
+  $dateOFBirth: BirthdayInput!
+  $govIdType: GovernmentIdInput!
+  $govIdFront: String!
+  $govIdBack: String
+) {
+  enterKYCInfo(
+    legalFirstName: $legalFirstName
+    legalLastName: $legalLastName
+    address: $address
+    individualSsn: $individualSsn
+    dateOFBirth: $dateOFBirth
+    govIdType: $govIdType
+    govIdFront: $govIdFront
+    govIdBack: $govIdBack
+  ) {
+    confirmedUpload
+    fields {
+      name
+      status
+    }
+    generalError
+    persistanceError
+  }
+}

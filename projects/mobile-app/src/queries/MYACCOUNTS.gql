@@ -1,0 +1,8 @@
+query MyAccounts {
+  accounts {
+    image
+    displayName
+    userName
+    id
+  }
+}

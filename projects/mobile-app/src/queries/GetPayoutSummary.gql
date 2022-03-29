@@ -1,0 +1,26 @@
+query getPayoutSummary {
+  getPayoutSummary {
+    currency
+    currentBalance
+    pendingBalance
+    payoutHistory {
+      date
+      status
+      amount {
+        value
+        display
+        major
+      }
+    }
+    available {
+      value
+      display
+      major
+    }
+    pending {
+      value
+      display
+      major
+    }
+  }
+}

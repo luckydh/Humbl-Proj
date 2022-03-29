@@ -1,0 +1,17 @@
+mutation StartTransferQuote(
+  $sourceCurrencyCode: String
+  $destinationCurrencyCode: String
+  $sourceAmount: String!
+  $externalAddress: String
+  $notes: String
+) {
+  startExternalTransferQuote(
+    sourceCurrencyCode: $sourceCurrencyCode
+    destinationCurrencyCode: $destinationCurrencyCode
+    sourceAmount: $sourceAmount
+    externalAddress: $externalAddress
+    notes: $notes
+  ) {
+    quoteId
+  }
+}

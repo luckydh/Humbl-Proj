@@ -1,0 +1,9 @@
+mutation StartQuote($destAmount: String!, $sourceCurrencyCode: String!, $destinationCurrencyCode: String!) {
+  startQuote(
+    destAmount: $destAmount
+    sourceCurrencyCode: $sourceCurrencyCode
+    destinationCurrencyCode: $destinationCurrencyCode
+  ) {
+    quoteId
+  }
+}

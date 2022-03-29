@@ -1,0 +1,6 @@
+mutation UpdateStripeAccount(
+  $persons: [StripeUpdatePersonFieldsInput]
+  $business: StripeUpdateBusinessFieldsInput
+) {
+  updateStripeAccount(persons: $persons, business: $business)
+}

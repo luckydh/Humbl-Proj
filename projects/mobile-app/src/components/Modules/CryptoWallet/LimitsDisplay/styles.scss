@@ -1,0 +1,60 @@
+.limits-display-animation {
+  opacity: 0;
+  animation: limits-display-fade 9s ease-in infinite;
+}
+
+.limits-display-animation:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.limits-display-animation:nth-child(2) {
+  animation-delay: 3s;
+}
+
+.limits-display-animation:nth-child(3) {
+  animation-delay: 6s;
+}
+
+@keyframes limits-display-fade {
+  0% {
+    opacity: 0;
+  }
+  3% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 1;
+  }
+  33% {
+    opacity: 0;
+  }
+}
+
+
+.limits-display-animation-kyc-approved {
+  opacity: 0;
+  animation: limits-display-fade-kyc-approved 6s ease-in infinite;
+}
+
+.limits-display-animation-kyc-approved:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.limits-display-animation-kyc-approved:nth-child(2) {
+  animation-delay: 3s;
+}
+
+@keyframes limits-display-fade-kyc-approved {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}

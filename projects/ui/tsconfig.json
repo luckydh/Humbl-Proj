@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "target": "es5",
+    "typeRoots": ["src/types", "./@types", "node_modules/@types"],
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": false,
+    "jsx": "react-jsx",
+    "declaration": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "emitDeclarationOnly": false,
+    "noFallthroughCasesInSwitch": true,
+    "composite": true,
+    "declarationDir": "dist/dts",
+    "declarationMap": true,
+    "rootDirs": ["./"]
+  },
+
+  "include": ["./src", "package.json", "tsconfig.json", ".eslintrc", "uikit-preset"],
+  "exclude": ["**/node_modules"]
+  // "extends": "../../tsconfig.json"
+}

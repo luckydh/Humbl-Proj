@@ -1,0 +1,17 @@
+query getMyAssetsInterestSummary {
+  myAssetsInterestSummary {
+    totalInterestGained
+    totalInterestGainedFiat {
+      major
+    }
+    assets {
+      name
+      code
+      logoImage
+      interestGained
+      interestGainedFiat {
+        major
+      }
+    }
+  }
+}

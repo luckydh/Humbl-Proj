@@ -1,0 +1,13 @@
+.line-separator:before,
+.line-separator:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid;
+  margin: auto;
+}
+.line-separator:before {
+  margin-right: 10px;
+}
+.line-separator:after {
+  margin-left: 10px;
+}

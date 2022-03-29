@@ -1,0 +1,10 @@
+mutation etxOrderDetail($uuid: String!) {
+  etxOrderDetail(uuid: $uuid) {
+    distribution {
+      currencyCode
+      percentage
+      currencyName
+      image
+    }
+  }
+}

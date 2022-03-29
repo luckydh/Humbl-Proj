@@ -1,0 +1,8 @@
+{
+  "name": "humbl-consumer",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react",
+  "id": "e446763a"
+}

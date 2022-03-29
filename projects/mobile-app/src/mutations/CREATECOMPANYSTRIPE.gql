@@ -1,0 +1,23 @@
+mutation createCompanyStripeAccount(
+  $legalName: String
+  $taxId: String
+  $email: String
+  $address: AddressInput
+  $phone: String
+  $website: String
+  $businessDescription: String
+  $structure: String
+  $persons: [StripePersonInput]
+) {
+  createCompanyStripeAccount(
+    legalName: $legalName
+    taxId: $taxId
+    email: $email
+    address: $address
+    phone: $phone
+    website: $website
+    businessDescription: $businessDescription
+    structure: $structure
+    persons: $persons
+  )
+}

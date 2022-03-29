@@ -1,0 +1,10 @@
+mutation updateAccount($country: String, $city: String, $phone: String) {
+  updateAccount(country: $country, phone: $phone, city: $city) {
+    country {
+      name
+      alpha2
+    }
+    phone
+    city
+  }
+}

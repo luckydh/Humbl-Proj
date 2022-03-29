@@ -1,0 +1,14 @@
+query GetAllArticles($ticker: String) {
+  allArticles(ticker: $ticker) {
+    title
+    url
+    text
+    sourceName
+    tickers
+    topics
+    createdOn {
+      date
+    }
+    imageUrl
+  }
+}

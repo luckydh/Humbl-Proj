@@ -1,0 +1,11 @@
+query GetBlocks {
+  getBlocks {
+    blocks {
+      threeMonth
+      sixMonth
+      twelveMonth
+      name
+      link
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.menu-icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  ion-icon {
+    font-size: 36px;
+    color: white;
+  }
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.avatar {
+  position: relative;
+  margin-bottom: 16px;
+
+  img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
+h3,
+p {
+  color: white;
+}
+h3 {
+  font-size: 20px !important;
+  &.balance {
+    margin-top: 32px;
+  }
+}

@@ -1,0 +1,53 @@
+mutation CreateMerchant(
+  $displayName: String
+  $merchantType: String
+  $phoneNumber: String
+  $userName: String
+  $location: AddressInput
+  $base64Image: String
+  $currency: String
+) {
+  createMerchant(
+    displayName: $displayName
+    merchantType: $merchantType
+    phoneNumber: $phoneNumber
+    userName: $userName
+    location: $location
+    base64Image: $base64Image
+    currency: $currency
+  ) {
+    userName
+    hasMultipleAccounts
+    hasMerchantAccount
+    isMerchant
+    displayName
+    image
+    id
+    city
+    isPrivate
+    phone
+    country {
+      name
+      alpha2
+    }
+    qr {
+      image
+      code
+    }
+    merchantProfileDetails {
+      id
+      merchantType
+      displayName
+      address {
+        street
+        streetAdditional
+        city
+        region
+        postal
+      }
+      currency
+      countryCode
+      acceptsPayments
+    }
+  }
+}

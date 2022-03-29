@@ -1,0 +1,16 @@
+query GetQuoteAndAsset($quoteId: String, $assetCode: String) {
+  asset: assetMetrics(assetName: $assetCode) {
+    price
+    logoImage
+  }
+  quote: getQuote(quoteId: $quoteId) {
+    sourceCurrency
+    sourceCurrencyCode
+    sourceAmount
+    destinationCurrency
+    destinationCurrencyCode
+    destinationAmount
+    sourceFee
+    fiatCurrencyCode
+  }
+}

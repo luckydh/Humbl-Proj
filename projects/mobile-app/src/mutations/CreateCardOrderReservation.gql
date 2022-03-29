@@ -1,0 +1,13 @@
+mutation CreateCardOrderReservation(
+  $sourceAmount: String
+  $sourceCurrency: String
+  $destinationCurrency: String
+) {
+  createCardOrderReservation(
+    sourceAmount: $sourceAmount
+    sourceCurrency: $sourceCurrency
+    destinationCurrency: $destinationCurrency
+  ) {
+    reservationId
+  }
+}

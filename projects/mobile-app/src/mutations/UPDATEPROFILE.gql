@@ -1,0 +1,11 @@
+mutation updateUserProfile(
+  $firstName: String
+  $lastName: String
+) {
+  modifyUserProfile(
+    firstName: $firstName
+    lastName:  $lastName
+  ) {
+    id
+  }
+}

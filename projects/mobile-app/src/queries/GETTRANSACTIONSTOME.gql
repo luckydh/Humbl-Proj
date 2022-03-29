@@ -1,0 +1,28 @@
+query GetTransactionsToMe($limit: Int, $page: Int) {
+  transactionsToMe(limit: $limit, page: $page) {
+    pageInfo{
+      currentPage
+      totalPages
+      totalCount
+      perPage
+    }
+    nodes {
+      id
+      amount
+      total {
+        major
+        value
+        display
+      }
+      currency
+      transactionType
+      dateOfTransaction
+      origin {
+        id
+        userName
+        displayName
+        image
+      }
+    }
+  }
+}

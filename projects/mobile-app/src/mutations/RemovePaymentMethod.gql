@@ -1,0 +1,8 @@
+mutation RemovePaymentMethod($id: String!, $type: PaymentMethodCategory!) {
+  deletePaymentMethod(type: $type, paymentMethodId: $id) {
+    message
+    deletedCC {
+      id
+    }
+  }
+}

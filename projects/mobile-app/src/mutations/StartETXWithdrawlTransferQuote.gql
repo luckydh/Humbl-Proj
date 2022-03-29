@@ -1,0 +1,5 @@
+mutation startETXWithdrawlTransferQuote($etxDistributionuuid: String, $maxOption: Boolean) {
+  startETXWithdrawlTransferQuote(etxDistributionuuid: $etxDistributionuuid, maxOption: $maxOption) {
+    transactionId
+  }
+}

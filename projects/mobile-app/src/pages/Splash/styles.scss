@@ -1,0 +1,16 @@
+.splash-container {
+  height: 60%;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  a {
+    text-decoration: none;
+  }
+  p {
+    text-align: center;
+    line-height: 24px;
+  }
+}

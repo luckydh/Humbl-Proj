@@ -1,0 +1,19 @@
+mutation CompleteTicketOrderWithPayment(
+  $orderId: String
+  $eventId: String
+  $merchantId: String
+  $payMethodId: String
+  $postal: String
+  $cvv: String
+) {
+  completeTicketOrderWithPayment(
+    orderId: $orderId
+    eventId: $eventId
+    merchantId: $merchantId
+    payMethodId: $payMethodId
+    cvvConfirmation: $cvv
+    postal: $postal
+  ) {
+    successMessage
+  }
+}

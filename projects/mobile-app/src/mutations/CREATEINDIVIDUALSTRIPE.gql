@@ -1,0 +1,23 @@
+mutation createIndividualStripeAccount(
+  $firstName: String
+  $lastName: String
+  $phone: String
+  $dob: BirthdayInput
+  $email: String
+  $govId: String
+  $businessDescription: String
+  $address: AddressInput
+  $website: String
+) {
+  createIndividualStripeAccount(
+    firstName: $firstName
+    lastName: $lastName
+    phone: $phone
+    dob: $dob
+    email: $email
+    govId: $govId
+    businessDescription: $businessDescription
+    address: $address
+    website: $website
+  )
+}

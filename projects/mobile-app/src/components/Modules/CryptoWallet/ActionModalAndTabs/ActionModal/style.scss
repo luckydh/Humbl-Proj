@@ -1,0 +1,16 @@
+.action-modal {
+  --background: transparent !important;
+  --width: 100% !important;
+  --height: 100% !important;
+}
+
+.action-modal .ion-page {
+  background: transparent !important;
+}
+
+.action-modal {
+  .modal-shadow,
+  .modal-wrapper {
+    pointer-events: none;
+  }
+}

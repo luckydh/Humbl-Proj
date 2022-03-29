@@ -1,0 +1,15 @@
+ <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="100%"
+        height="100%"
+        viewBox="0 0 13.687 21.787"
+      >
+        <defs>
+          <style>.a_chevron_forward{fill:#fff;}</style>
+        </defs>
+        <path
+          class=".a_chevron_forward"
+          d="M350.652,47.478l-2.793-2.793,8.1-8.1-8.1-8.1,2.793-2.793,10.893,10.893Z"
+          transform="translate(-347.858 -25.691)"
+        />
+      </svg>

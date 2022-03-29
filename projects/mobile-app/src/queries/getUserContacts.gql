@@ -1,0 +1,9 @@
+query searchForUserContacts($contacts: [ContactInput]) {
+  searchForUserContacts(contacts: $contacts) {
+    id
+    userName
+    displayName
+    image
+    isMerchant
+  }
+}

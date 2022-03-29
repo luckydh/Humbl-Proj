@@ -1,0 +1,9 @@
+query GetCarouselItems {
+  getCarouselAssets {
+    type
+    src
+    content
+    link
+    poster
+  }
+}

@@ -1,0 +1,33 @@
+query getEvent($merchantId: String, $platformEventId: String, $venuePlatformId: String) {
+  getEvent(
+    merchantId: $merchantId
+    platformEventId: $platformEventId
+    venuePlatformId: $venuePlatformId
+  ) {
+    eventInfo {
+      id
+      title
+      dateTime
+      description
+      artists
+      type
+      isOnline
+      imageUrl
+    }
+    ticketDetails {
+      id
+      type
+      currency
+      price {
+        value
+        display
+        major
+      }
+      status
+      minimumPerOrder
+      maximumPerOrder
+      saleStart
+      saleEnd
+    }
+  }
+}

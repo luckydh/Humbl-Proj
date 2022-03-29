@@ -1,0 +1,59 @@
+.login-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+
+    button {
+      margin-top: 20px;
+    }
+  }
+
+  .error-message {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: red;
+    text-align: center;
+    opacity: 0.7;
+    width: 100%;
+  }
+
+  .humbl-logo {
+    position: absolute;
+    top: 10px;
+    height: 30px;
+  }
+
+  .account-options {
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__create {
+      margin-top: 10px;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+
+  .form-input:not(:first-child) {
+    margin-top: 20px;
+  }
+}
+
+

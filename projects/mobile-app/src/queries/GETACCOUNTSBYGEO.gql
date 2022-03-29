@@ -1,0 +1,12 @@
+query getAccountsByGeom($geom: GeometricSearchInput) {
+  searchAccountsByGeom(geom: $geom) {
+    id
+    displayName
+    userName
+    image
+    merchantProfileDetails {
+      geom
+      acceptsPayments
+    }
+  }
+}

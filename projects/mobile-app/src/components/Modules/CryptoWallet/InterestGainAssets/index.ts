@@ -1,0 +1,1 @@
+export { InterestGainAssets } from "./InterestGainAssets";

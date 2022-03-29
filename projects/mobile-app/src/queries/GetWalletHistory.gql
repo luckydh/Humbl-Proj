@@ -1,0 +1,14 @@
+query GetWalletBalanceHistory($period: MarketPeriodInput) {
+  getWalletBalanceHistory(period: $period) {
+    totalFiatBalance
+    start
+    end
+    minPrice
+    maxPrice
+    firstValidPointIndex
+    history {
+      price
+      time
+    }
+  }
+}
